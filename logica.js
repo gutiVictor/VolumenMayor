@@ -34,7 +34,7 @@ function procesarDatos() {
     resultadoCamiones.innerHTML = ""; // Limpiar tabla de camiones
 
     lineas.forEach(linea => {
-        const [codigo, cantidad] = linea.split(",").map(item => item.trim()); // Separar código y cantidad
+        const [codigo, cantidad] = linea.split(",").map(item => item.trim().toUpperCase()); // Convertir a mayúsculas
         const producto = products.find(p => p.codigo === codigo);
 
         if (producto) {
