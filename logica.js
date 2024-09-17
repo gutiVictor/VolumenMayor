@@ -1,5 +1,14 @@
 let products = [];
 
+// Datos de los camiones
+const camiones = [
+    { nombre: "Camión 1", capacidadVolumen: 60, capacidadPeso: 35000 },
+    { nombre: "Camión 2", capacidadVolumen: 70, capacidadPeso: 37000 },
+    { nombre: "Camión 3", capacidadVolumen: 80, capacidadPeso: 38000 },
+    { nombre: "Camión 4", capacidadVolumen: 90, capacidadPeso: 39000 },
+    { nombre: "Camión 5", capacidadVolumen: 100, capacidadPeso: 4000 }
+];
+
 document.addEventListener('DOMContentLoaded', () => {
     // Cargar datos del JSON cuando se carga la página
     fetch('productos.json')
@@ -17,10 +26,12 @@ function procesarDatos() {
     let totalPeso = 0;
 
     // Limpiar resultados anteriores
-    const tablaResultados = document.getElementById("resultado-individuales").getElementsByTagName('tbody')[0];
+    const tablaResultados = document.getElementById("resultado-individuales");
     const resultadoGrupal = document.getElementById("resultado-grupal");
+    const resultadoCamiones = document.getElementById("resultado-camiones");
     tablaResultados.innerHTML = "";
     resultadoGrupal.innerHTML = "";
+    resultadoCamiones.innerHTML = "";
 
     lineas.forEach(linea => {
         const [codigo, cantidad] = linea.split(",").map(item => item.trim()); // Separar código y cantidad
@@ -56,4 +67,18 @@ function procesarDatos() {
     // Mostrar resultados grupales
     resultadoGrupal.innerHTML = `<strong>Volumen total:</strong> ${totalVolumen.toFixed(2)} m³<br>
         <strong>Peso total:</strong> ${totalPeso.toFixed(2)} kg`;
+
+    // Análisis por camión
+    camiones.forEach(camion => {
+        const porcentajeVolumen = (totalVolumen / camion.capacidadVolumen) * 100;
+        const porcentajePeso = (totalPeso / camion.capacidadPeso) * 100;
+
+        resultadoCamiones.innerHTML += `<div class="resultado-camion">
+            <strong>${camion.nombre}:</strong><br>
+            Capacidad Volumen: ${camion.capacidadVolumen} m³, Capacidad Peso: ${camion.capacidadPeso} kg<br>
+            Volumen utilizado: ${porcentajeVolumen.toFixed(2)}% (${totalVolumen.toFixed(2)} m³)<br>
+            Peso utilizado: ${porcentajePeso.toFixed(2)}% (${totalPeso.toFixed(2)} kg)<br>
+            ${porcentajeVolumen > 100 || porcentajePeso > 100 ? "<strong>¡No cabe!</strong><br><br>" : "Cabe en el camión.<br><br>"}
+        </div>`;
+    });
 }
