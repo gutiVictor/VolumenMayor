@@ -28,10 +28,10 @@ function procesarDatos() {
     // Limpiar resultados anteriores
     const tablaResultados = document.getElementById("resultado-individuales");
     const resultadoGrupal = document.getElementById("resultado-grupal");
-    const resultadoCamiones = document.getElementById("resultado-camiones");
+    const resultadoCamiones = document.getElementById("resultado-camiones"); // Se mantiene igual
     tablaResultados.innerHTML = "";
     resultadoGrupal.innerHTML = "";
-    resultadoCamiones.innerHTML = "";
+    resultadoCamiones.innerHTML = ""; // Limpiar tabla de camiones
 
     lineas.forEach(linea => {
         const [codigo, cantidad] = linea.split(",").map(item => item.trim()); // Separar código y cantidad
@@ -68,17 +68,19 @@ function procesarDatos() {
     resultadoGrupal.innerHTML = `<strong>Volumen total:</strong> ${totalVolumen.toFixed(2)} m³<br>
         <strong>Peso total:</strong> ${totalPeso.toFixed(2)} kg`;
 
-    // Análisis por camión
+    // Análisis por camión en una tabla
     camiones.forEach(camion => {
         const porcentajeVolumen = (totalVolumen / camion.capacidadVolumen) * 100;
         const porcentajePeso = (totalPeso / camion.capacidadPeso) * 100;
+        const cabeEnCamion = porcentajeVolumen > 100 || porcentajePeso > 100 ? "¡No cabe!" : "Cabe en el camión";
 
-        resultadoCamiones.innerHTML += `<div class="resultado-camion">
-            <strong>${camion.nombre}:</strong><br>
-            Capacidad Volumen: ${camion.capacidadVolumen} m³, Capacidad Peso: ${camion.capacidadPeso} kg<br>
-            Volumen utilizado: ${porcentajeVolumen.toFixed(2)}% (${totalVolumen.toFixed(2)} m³)<br>
-            Peso utilizado: ${porcentajePeso.toFixed(2)}% (${totalPeso.toFixed(2)} kg)<br>
-            ${porcentajeVolumen > 100 || porcentajePeso > 100 ? "<strong>¡No cabe!</strong><br><br>" : "Cabe en el camión.<br><br>"}
-        </div>`;
+        // Agregar fila a la tabla de camiones
+        const filaCamion = resultadoCamiones.insertRow();
+        filaCamion.innerHTML = `<td>${camion.nombre}</td>
+            <td>${camion.capacidadVolumen}</td>
+            <td>${camion.capacidadPeso}</td>
+            <td>${porcentajeVolumen.toFixed(2)}%</td>
+            <td>${porcentajePeso.toFixed(2)}%</td>
+            <td>${cabeEnCamion}</td>`;
     });
 }
