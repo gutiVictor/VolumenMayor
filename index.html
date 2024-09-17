@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcular Volumen y Peso</title>
+</head>
+<body>
+    <h1>Pedido de Productos</h1>
+    <textarea id="pedido" rows="10" placeholder="Pega productos aquí (ej: PF101,12)"></textarea>
+    <br>
+    <button onclick="procesarDatos()">Calcular</button>
+
+    <div id="resultados">
+        <h2>Resultados</h2>
+        <table id="resultado-individuales">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Tipo de Empaque</th>
+                    <th>Medidas (cm)</th>
+                    <th>Peso por Unidad (kg)</th>
+                    <th>Volumen por Unidad (m³)</th>
+                    <th>Cantidad</th>
+                    <th>Volumen Total (m³)</th>
+                    <th>Peso Total (kg)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se llenarán los resultados individuales -->
+            </tbody>
+        </table>
+        <div id="resultado-grupal">
+            <!-- Aquí se mostrarán los resultados grupales -->
+        </div>
+    </div>
+
+    <script src="logica.js"></script>
+</body>
+</html>
