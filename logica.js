@@ -1,11 +1,11 @@
 let products = [];
 
-// Datos de los camiones
+// Datos de los camiones con capacidad máxima corregida
 const camiones = [
-    { nombre: "Camión 1", capacidadVolumen: 60, capacidadPeso: 35000 },
-    { nombre: "Camión 2", capacidadVolumen: 70, capacidadPeso: 37000 },
-    { nombre: "Camión 3", capacidadVolumen: 80, capacidadPeso: 38000 },
-    { nombre: "Camión 4", capacidadVolumen: 90, capacidadPeso: 39000 },
+    { nombre: "Camión 1", capacidadVolumen: 60, capacidadPeso: 3500 },
+    { nombre: "Camión 2", capacidadVolumen: 70, capacidadPeso: 3700 },
+    { nombre: "Camión 3", capacidadVolumen: 80, capacidadPeso: 3800 },
+    { nombre: "Camión 4", capacidadVolumen: 90, capacidadPeso: 3900 },
     { nombre: "Camión 5", capacidadVolumen: 100, capacidadPeso: 4000 }
 ];
 
