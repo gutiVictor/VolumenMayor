@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function procesarDatos() {
     const input = document.getElementById("pedido").value.trim();
-    const lineas = input.split("\n"); // Separar las líneas de texto
+    const lineas = input.split("\n"); // Separar las líneas por saltos de línea
     let totalVolumen = 0;
     let totalPeso = 0;
 
@@ -34,7 +34,9 @@ function procesarDatos() {
     resultadoCamiones.innerHTML = ""; // Limpiar tabla de camiones
 
     lineas.forEach(linea => {
-        const [codigo, cantidad] = linea.split(",").map(item => item.trim().toUpperCase()); // Convertir a mayúsculas
+        // Aquí se detecta si los datos están separados por coma o tabulación
+        const separador = linea.includes(",") ? "," : "\t";
+        const [codigo, cantidad] = linea.split(separador).map(item => item.trim().toUpperCase()); // Convertir a mayúsculas
         const producto = products.find(p => p.codigo === codigo);
 
         if (producto) {
