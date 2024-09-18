@@ -1,51 +1,12 @@
 [
   {
-      "codigo": "PF101",
-      "largo": 27,
-      "alto": 13,
-      "ancho": 10.5,
-      "tipo_empaque": "Malla",
-      "peso": 1200  
-  },
-  {
-      "codigo": "PF101PR",
-      "largo": 27,
-      "alto": 13,
-      "ancho": 10.5,
-      "tipo_empaque": "Malla",
-      "peso": 1300 
-  },
-  {
-      "codigo": "PF101B",
-      "largo": 27,
-      "alto": 13,
-      "ancho": 10.5,
-      "tipo_empaque": "Malla",
-      "peso": 1250  
-  },
-  {
-      "codigo": "PF102",
-      "largo": 27,
-      "alto": 12,
-      "ancho": 10.5,
-      "tipo_empaque": "Malla",
-      "peso": 1100  
-  },
-  {
-      "codigo": "PF102B",
-      "largo": 27,
-      "alto": 12,
-      "ancho": 10.5,
-      "tipo_empaque": "Malla",
-      "peso": 1150 
-  },
-  {
-      "codigo": "PF102J",
-      
-      "largo": 27,
-      "alto": 14,
-      "ancho": 10.5,
-      "tipo_empaque": "Bolsa PVC",
-      "peso": 1350  
+    "codigo": "PF101",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 5620,
+    "empaque_canasta": 28,
+    "largo_cm": 77,
+    "alto_cm": 30,
+    "ancho_cm": 60
   }
 ]

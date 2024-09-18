@@ -1,88 +1,103 @@
-let products = [];
+// Cargar productos del archivo JSON
+let productos = [];
 
-// Datos de los camiones con capacidad máxima corregida
-const camiones = [
-    { nombre: "Camión 1", capacidadVolumen: 60, capacidadPeso: 3500 },
-    { nombre: "Camión 2", capacidadVolumen: 70, capacidadPeso: 3700 },
-    { nombre: "Camión 3", capacidadVolumen: 80, capacidadPeso: 3800 },
-    { nombre: "Camión 4", capacidadVolumen: 90, capacidadPeso: 3900 },
-    { nombre: "Camión 5", capacidadVolumen: 100, capacidadPeso: 4000 }
-];
+fetch('productos.json')
+    .then(response => response.json())
+    .then(data => productos = data)
+    .catch(error => console.error('Error cargando productos:', error));
 
-document.addEventListener('DOMContentLoaded', () => {
-    // Cargar datos del JSON cuando se carga la página
-    fetch('productos.json')
-        .then(response => response.json())
-        .then(data => {
-            products = data;
-        })
-        .catch(error => console.error('Error al cargar el archivo JSON:', error));
-});
-
+// Función para procesar los datos ingresados
 function procesarDatos() {
-    const input = document.getElementById("pedido").value.trim();
-    const lineas = input.split("\n"); // Separar las líneas por saltos de línea
-    let totalVolumen = 0;
-    let totalPeso = 0;
+    const pedidoTexto = document.getElementById('pedido').value;
+    const lineas = pedidoTexto.split('\n');
+    const resultadosIndividuales = document.getElementById('resultado-individuales');
+    const resultadoCamiones = document.getElementById('resultado-camiones');
 
-    // Limpiar resultados anteriores
-    const tablaResultados = document.getElementById("resultado-individuales");
-    const resultadoGrupal = document.getElementById("resultado-grupal");
-    const resultadoCamiones = document.getElementById("resultado-camiones"); // Se mantiene igual
-    tablaResultados.innerHTML = "";
-    resultadoGrupal.innerHTML = "";
-    resultadoCamiones.innerHTML = ""; // Limpiar tabla de camiones
+    // Limpiar tablas previas
+    resultadosIndividuales.innerHTML = '';
+    resultadoCamiones.innerHTML = '';
 
+    let volumenTotal = 0;
+    let pesoTotal = 0;
+
+    // Procesar cada línea del pedido
     lineas.forEach(linea => {
-        // Aquí se detecta si los datos están separados por coma o tabulación
-        const separador = linea.includes(",") ? "," : "\t";
-        const [codigo, cantidad] = linea.split(separador).map(item => item.trim().toUpperCase()); // Convertir a mayúsculas
-        const producto = products.find(p => p.codigo === codigo);
+        const [codigo, cantidadStr] = linea.split(',');
+        const cantidad = parseInt(cantidadStr.trim());
+
+        // Buscar el producto en el JSON
+        const producto = productos.find(p => p.codigo.trim() === codigo.trim());
 
         if (producto) {
-            const volumenPorUnidad = producto.largo * producto.alto * producto.ancho / 1e6; // Convertir a m³
-            const pesoPorUnidadKg = producto.peso / 1000; // Convertir a kg
-            const cantidadNumerica = parseInt(cantidad, 10);
+            // Validar y calcular el volumen de la unidad (en m³)
+            const largo_cm = producto.largo_cm || 0;
+            const alto_cm = producto.alto_cm || 0;
+            const ancho_cm = producto.ancho_cm || 0;
+            const volumenUnidad = (largo_cm * alto_cm * ancho_cm) / 1e6; // Convertir cm³ a m³
 
-            const volumenTotal = volumenPorUnidad * cantidadNumerica;
-            const pesoTotal = pesoPorUnidadKg * cantidadNumerica;
+            // Validar y calcular el peso total de la unidad en gramos
+            const pesoUnidadGramos = producto.peso_unidad_empaque || 0;
 
-            totalVolumen += volumenTotal;
-            totalPeso += pesoTotal;
+            // Calcular el volumen total para la cantidad solicitada
+            const volumenTotalProducto = volumenUnidad * cantidad;
 
-            // Agregar fila a la tabla de resultados individuales
-            const fila = tablaResultados.insertRow();
-            fila.innerHTML = `<td>${codigo}</td>
-                <td>${producto.tipo_empaque}</td>
-                <td>${producto.largo} x ${producto.alto} x ${producto.ancho}</td>
-                <td>${pesoPorUnidadKg.toFixed(2)}</td>
-                <td>${volumenPorUnidad.toFixed(6)}</td>
-                <td>${cantidadNumerica}</td>
-                <td>${volumenTotal.toFixed(2)}</td>
-                <td>${pesoTotal.toFixed(2)}</td>`;
+            // Calcular el peso total para la cantidad solicitada
+            const pesoTotalProducto = pesoUnidadGramos * cantidad;
+
+            // Acumular el volumen y el peso totales
+            volumenTotal += volumenTotalProducto;
+            pesoTotal += pesoTotalProducto;
+
+            // Añadir fila a la tabla de resultados individuales
+            const fila = `<tr>
+                <td>${producto.codigo}</td>
+                <td>${producto.empaque || 'N/A'}</td>
+                <td>${largo_cm || 'N/A'}</td>
+                <td>${alto_cm || 'N/A'}</td>
+                <td>${ancho_cm || 'N/A'}</td>
+                <td>${producto.unidad_empaque_gramos || 'N/A'}</td>
+                <td>${(pesoUnidadGramos / 1000).toFixed(2)}</td>
+                <td>${producto.empaque_canasta || 'N/A'}</td>
+                <td>${volumenUnidad.toFixed(6)}</td>
+                <td>${cantidad}</td>
+                <td>${volumenTotalProducto.toFixed(6)}</td>
+                <td>${(pesoTotalProducto / 1000).toFixed(2)}</td> <!-- Convertir gramos a kilogramos -->
+            </tr>`;
+            resultadosIndividuales.insertAdjacentHTML('beforeend', fila);
         } else {
-            const fila = tablaResultados.insertRow();
-            fila.innerHTML = `<td colspan="8">Producto con código ${codigo} no encontrado.</td>`;
+            // Si no se encuentra el producto, mostrar una fila indicando que no se encontró
+            const fila = `<tr>
+                <td>${codigo.trim()}</td>
+                <td colspan="10">Producto no encontrado</td>
+            </tr>`;
+            resultadosIndividuales.insertAdjacentHTML('beforeend', fila);
         }
     });
 
-    // Mostrar resultados grupales
-    resultadoGrupal.innerHTML = `<strong>Volumen total:</strong> ${totalVolumen.toFixed(2)} m³<br>
-        <strong>Peso total:</strong> ${totalPeso.toFixed(2)} kg`;
+    // Datos de camiones
+    const camiones = [
+        { nombre: 'Camión Placa 1', capacidadVolumen: 58, capacidadPeso: 3000 },
+        { nombre: 'Camión Placa 2', capacidadVolumen: 60, capacidadPeso: 3500 },
+        { nombre: 'Camión Placa 3', capacidadVolumen: 57, capacidadPeso: 37000 },
+        { nombre: 'Camión Placa 4', capacidadVolumen: 16.7, capacidadPeso: 1200 },
+        { nombre: 'Camión Placa 5', capacidadVolumen: 120, capacidadPeso: 7000 }
+    ];
 
-    // Análisis por camión en una tabla
+    // Analizar cada camión
     camiones.forEach(camion => {
-        const porcentajeVolumen = (totalVolumen / camion.capacidadVolumen) * 100;
-        const porcentajePeso = (totalPeso / camion.capacidadPeso) * 100;
-        const cabeEnCamion = porcentajeVolumen > 100 || porcentajePeso > 100 ? "¡No cabe!" : "Cabe en el camión";
+        const volumenUtilizado = (volumenTotal / camion.capacidadVolumen) * 100;
+        const pesoUtilizado = (pesoTotal / camion.capacidadPeso) * 100;
+        const cabe = (volumenUtilizado <= 100 && pesoUtilizado <= 100) ? 'Sí' : 'No';
 
-        // Agregar fila a la tabla de camiones
-        const filaCamion = resultadoCamiones.insertRow();
-        filaCamion.innerHTML = `<td>${camion.nombre}</td>
+        // Añadir fila a la tabla de camiones
+        const filaCamion = `<tr>
+            <td>${camion.nombre}</td>
             <td>${camion.capacidadVolumen}</td>
             <td>${camion.capacidadPeso}</td>
-            <td>${porcentajeVolumen.toFixed(2)}%</td>
-            <td>${porcentajePeso.toFixed(2)}%</td>
-            <td>${cabeEnCamion}</td>`;
+            <td>${volumenUtilizado.toFixed(2)}%</td>
+            <td>${pesoUtilizado.toFixed(2)}%</td>
+            <td>${cabe}</td>
+        </tr>`;
+        resultadoCamiones.insertAdjacentHTML('beforeend', filaCamion);
     });
 }

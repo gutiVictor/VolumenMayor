@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,49 +8,63 @@
 </head>
 <body>
     <h1>Pedido de Productos</h1>
+
+    <!-- Área de texto para pegar productos -->
     <textarea id="pedido" rows="15" placeholder="Pega productos aquí (ej: PF101,12)"></textarea>
     <br>
+    <!-- Botón para procesar datos -->
     <button onclick="procesarDatos()">Calcular</button>
 
+    <!-- Resultados Individuales -->
     <div id="resultados">
         <h2>Resultados Individuales</h2>
         <table>
             <thead>
                 <tr>
                     <th>Código</th>
-                    <th>Tipo de Empaque</th>
-                    <th>Medidas (LxAxA)</th>
-                    <th>Peso Unidad (kg)</th>
+                    <th>Empaque</th>
+                    <th>Largo </th>
+                    <th>Alto </th>
+                    <th>Ancho </th>
+                    <th>Unidad Empaque (Grs)</th>
+                    <th>Peso Unidad (Grs)</th>
+                    <th>Empaque Canasta</th>
                     <th>Volumen Unidad (m³)</th>
                     <th>Cantidad</th>
                     <th>Volumen Total (m³)</th>
                     <th>Peso Total (kg)</th>
                 </tr>
             </thead>
-            <tbody id="resultado-individuales"></tbody> <!-- Asegúrate de que este ID esté bien -->
+            <tbody id="resultado-individuales">
+                <!-- Aquí se llenarán los resultados individuales -->
+            </tbody>
         </table>
 
+        <!-- Análisis de Camiones -->
         <h2>Análisis de Camiones</h2>
-<table id="tabla-camiones">
-    <thead>
-        <tr>
-            <th>Camión</th>
-            <th>Capacidad Volumen (m³)</th>
-            <th>Capacidad Peso (kg)</th>
-            <th>Volumen Utilizado (%)</th>
-            <th>Peso Utilizado (%)</th>
-            <th>¿Cabe?</th>
-        </tr>
-    </thead>
-    <tbody id="resultado-camiones"></tbody> <!-- Este ID lo vamos a usar -->
-</table>
+        <table id="tabla-camiones">
+            <thead>
+                <tr>
+                    <th>Camión</th>
+                    <th>Capacidad Volumen (m³)</th>
+                    <th>Capacidad Peso (kg)</th>
+                    <th>Volumen Utilizado (%)</th>
+                    <th>Peso Utilizado (%)</th>
+                    <th>¿Cabe?</th>
+                </tr>
+            </thead>
+            <tbody id="resultado-camiones">
+                <!-- Aquí se llenarán los resultados de camiones -->
+            </tbody>
+        </table>
 
-        <div id="resultado-grupal"></div>
-
-      
-        <div id="resultado-camiones"></div> <!-- Asegúrate de que este ID esté bien -->
+        <!-- Resultado Grupal (Sección adicional si es necesario) -->
+        <div id="resultado-grupal">
+            <!-- Sección para resultados grupales si fuera necesaria -->
+        </div>
     </div>
 
+    <!-- Enlace al archivo de JavaScript -->
     <script src="logica.js"></script>
 </body>
 </html>
