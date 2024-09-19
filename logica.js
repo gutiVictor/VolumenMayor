@@ -65,7 +65,7 @@ function procesarDatos() {
                 <td>${volumenUnidad.toFixed(6)}</td>
                 <td>${cantidad}</td>
                 <td>${volumenTotalProducto.toFixed(6)}</td>
-                <td>${(pesoTotalProducto / 1000).toFixed(2)}</td> <!-- Convertir gramos a kilogramos -->
+                <td>${(pesoTotalProducto / 1000).toFixed(2)}</td> <!-- Convertir gramos a kilogramos RESULTADOS INDIVIDUALES-->
             </tr>`;
             resultadosIndividuales.insertAdjacentHTML('beforeend', fila);
         } else {
@@ -80,13 +80,13 @@ function procesarDatos() {
 
     // Mostrar los totales en el HTML
     volumenTotalElem.textContent = volumenTotal.toFixed(6);
-    pesoTotalElem.textContent = (pesoTotal / 1000).toFixed(2); // Convertir a kg
+    pesoTotalElem.textContent = (pesoTotal / 1000).toFixed(2); // Convertir a kg EL PESOS TOTAL RESULTADO TOTAL
 
     // Datos de camiones
     const camiones = [
         { nombre: 'Camión Placa WDL-969', capacidadVolumen: 16.75, capacidadPeso: 2100  },
         { nombre: 'Camión Placa SQD-655', capacidadVolumen: 57.614808, capacidadPeso:7000  },
-        { nombre: 'Camión Placa SQD-563', capacidadVolumen: 57.88400, capacidadPeso: 7000 },
+        { nombre: 'Camión Placa SQD-563', capacidadVolumen: 57.88400, capacidadPeso: 7000},
         { nombre: 'Camión Placa WCW-366', capacidadVolumen: 60.68218, capacidadPeso: 6900 },
         { nombre: 'Camión Placa TJB-056', capacidadVolumen: 58.728144, capacidadPeso: 7000 },
         { nombre: 'Camión Placa SZR-699', capacidadVolumen: 75.2544, capacidadPeso: 24000 },
@@ -97,7 +97,10 @@ function procesarDatos() {
     // Analizar cada camión
     camiones.forEach(camion => {
         const volumenUtilizado = (volumenTotal / camion.capacidadVolumen) * 100;
-        const pesoUtilizado = (pesoTotal / camion.capacidadPeso) * 100;
+        const pesoUtilizado = ((pesoTotal/1000) / camion.capacidadPeso) * 100;/* VERIFICAR SOLO MUEVE  */
+        console.log(pesoTotal)
+        console.log(camion.capacidadPeso)
+        console.log(pesoUtilizado)
         const cabe = (volumenUtilizado <= 100 && pesoUtilizado <= 100) ? 'Sí' : 'No';
 
         // Añadir fila a la tabla de camiones
