@@ -9,7 +9,8 @@ fetch('productos.json')
 // Función para procesar los datos ingresados
 function procesarDatos() {
     const pedidoTexto = document.getElementById('pedido').value;
-    const lineas = pedidoTexto.split('\n');
+    // Separar líneas y permitir reconocimiento de tabulaciones o comas
+    const lineas = pedidoTexto.split(/\n|\t/);
     const resultadosIndividuales = document.getElementById('resultado-individuales');
     const resultadoCamiones = document.getElementById('resultado-camiones');
     const volumenTotalElem = document.getElementById('volumen-total');
@@ -24,9 +25,15 @@ function procesarDatos() {
     let volumenTotal = 0;
     let pesoTotal = 0;
 
+    
+    
+
+
     // Procesar cada línea del pedido
     lineas.forEach(linea => {
-        const [codigo, cantidadStr] = linea.split(',');
+        // Separar código y cantidad y convertir código a mayúsculas
+        let [codigo, cantidadStr] = linea.split(",").map(item => item.trim());
+        codigo = codigo.toUpperCase();  // Convertir código a mayúsculas
         const cantidad = parseInt(cantidadStr.trim());
 
         // Buscar el producto en el JSON
