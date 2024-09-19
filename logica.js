@@ -12,10 +12,14 @@ function procesarDatos() {
     const lineas = pedidoTexto.split('\n');
     const resultadosIndividuales = document.getElementById('resultado-individuales');
     const resultadoCamiones = document.getElementById('resultado-camiones');
+    const volumenTotalElem = document.getElementById('volumen-total');
+    const pesoTotalElem = document.getElementById('peso-total');
 
     // Limpiar tablas previas
     resultadosIndividuales.innerHTML = '';
     resultadoCamiones.innerHTML = '';
+    volumenTotalElem.textContent = '';
+    pesoTotalElem.textContent = '';
 
     let volumenTotal = 0;
     let pesoTotal = 0;
@@ -74,13 +78,20 @@ function procesarDatos() {
         }
     });
 
+    // Mostrar los totales en el HTML
+    volumenTotalElem.textContent = volumenTotal.toFixed(6);
+    pesoTotalElem.textContent = (pesoTotal / 1000).toFixed(2); // Convertir a kg
+
     // Datos de camiones
     const camiones = [
-        { nombre: 'Camión Placa 1', capacidadVolumen: 58, capacidadPeso: 3000 },
-        { nombre: 'Camión Placa 2', capacidadVolumen: 60, capacidadPeso: 3500 },
-        { nombre: 'Camión Placa 3', capacidadVolumen: 57, capacidadPeso: 37000 },
-        { nombre: 'Camión Placa 4', capacidadVolumen: 16.7, capacidadPeso: 1200 },
-        { nombre: 'Camión Placa 5', capacidadVolumen: 120, capacidadPeso: 7000 }
+        { nombre: 'Camión Placa WDL-969', capacidadVolumen: 16.75, capacidadPeso: 2100  },
+        { nombre: 'Camión Placa SQD-655', capacidadVolumen: 57.614808, capacidadPeso:7000  },
+        { nombre: 'Camión Placa SQD-563', capacidadVolumen: 57.88400, capacidadPeso: 7000 },
+        { nombre: 'Camión Placa WCW-366', capacidadVolumen: 60.68218, capacidadPeso: 6900 },
+        { nombre: 'Camión Placa TJB-056', capacidadVolumen: 58.728144, capacidadPeso: 7000 },
+        { nombre: 'Camión Placa SZR-699', capacidadVolumen: 75.2544, capacidadPeso: 24000 },
+        { nombre: 'Camión Placa SZR-652', capacidadVolumen: 75.2544, capacidadPeso: 24000 },
+
     ];
 
     // Analizar cada camión
@@ -101,3 +112,4 @@ function procesarDatos() {
         resultadoCamiones.insertAdjacentHTML('beforeend', filaCamion);
     });
 }
+
