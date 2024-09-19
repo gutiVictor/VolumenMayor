@@ -23,18 +23,17 @@ function procesarDatos() {
     pesoTotalElem.textContent = '';
 
     let volumenTotal = 0;
-    let pesoTotal = 0;
-
-    
-    
+    let pesoTotal = 0;     
 
 
     // Procesar cada línea del pedido
     lineas.forEach(linea => {
-        // Separar código y cantidad y convertir código a mayúsculas
+        // Separar código y cantidad 
         let [codigo, cantidadStr] = linea.split(",").map(item => item.trim());
         codigo = codigo.toUpperCase();  // Convertir código a mayúsculas
         const cantidad = parseInt(cantidadStr.trim());
+
+        
 
         // Buscar el producto en el JSON
         const producto = productos.find(p => p.codigo.trim() === codigo.trim());
