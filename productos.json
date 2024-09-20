@@ -1,12 +1,1672 @@
 [
   {
+    "codigo": "AT0001",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 50,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 15,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "AT0004",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 100,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 15,
+    "largo_cm": 0.43,
+    "alto_cm": 0.87,
+    "ancho_cm": 0.54
+  },
+  {
+    "codigo": "AT0006",
+    "empaque": "NO SE FABRICA MÁS",
+    "unidad_empaque_gramos": 40,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 15,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "AT0008",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 40,
+    "peso_unidad_empaque": 6600,
+    "empaque_canasta": 15,
+    "largo_cm": 0.885,
+    "alto_cm": 0.41,
+    "ancho_cm": 0.51
+  },
+  {
+    "codigo": "AT0010",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 40,
+    "peso_unidad_empaque": 5680,
+    "empaque_canasta": 15,
+    "largo_cm": 0.77,
+    "alto_cm": 0.36,
+    "ancho_cm": 0.53
+  },
+  {
+    "codigo": "AT0011",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 40,
+    "peso_unidad_empaque": 4580,
+    "empaque_canasta": 15,
+    "largo_cm": 0.71,
+    "alto_cm": 0.34,
+    "ancho_cm": 0.5
+  },
+  {
     "codigo": "PF101",
     "empaque": "BOLSA 31 X 43",
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 5620,
     "empaque_canasta": 28,
-    "largo_cm": 77,
+    "largo_cm": 0.77,
+    "alto_cm": 0.3,
+    "ancho_cm": 0.6
+  },
+  {
+    "codigo": "PF101B",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 6920,
+    "empaque_canasta": 28,
+    "largo_cm": 0.9,
+    "alto_cm": 0.325,
+    "ancho_cm": 0.55
+  },
+  {
+    "codigo": "PF101PG",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 7640,
+    "empaque_canasta": 28,
+    "largo_cm": 0.565,
+    "alto_cm": 0.73,
+    "ancho_cm": 0.5
+  },
+  {
+    "codigo": "PF101PR",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 6180,
+    "empaque_canasta": 28,
+    "largo_cm": 0.9,
+    "alto_cm": 0.3,
+    "ancho_cm": 0.55
+  },
+  {
+    "codigo": "PF102",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 5320,
+    "empaque_canasta": 28,
+    "largo_cm": 0.88,
+    "alto_cm": 0.3,
+    "ancho_cm": 0.55
+  },
+  {
+    "codigo": "PF102B",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 8004,
+    "empaque_canasta": 28,
+    "largo_cm": 0.9,
+    "alto_cm": 0.285,
+    "ancho_cm": 0.55
+  },
+  {
+    "codigo": "PF102F",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 8540,
+    "empaque_canasta": 28,
+    "largo_cm": 0.95,
+    "alto_cm": 0.29,
+    "ancho_cm": 0.55
+  },
+  {
+    "codigo": "PF102J",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 8008,
+    "empaque_canasta": 28,
+    "largo_cm": 0.82,
+    "alto_cm": 0.235,
+    "ancho_cm": 0.61
+  },
+  {
+    "codigo": "PF102M",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 6640,
+    "empaque_canasta": 28,
+    "largo_cm": 82,
+    "alto_cm": 29.5,
+    "ancho_cm": 64
+  },
+  {
+    "codigo": "PF102P",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 6540,
+    "empaque_canasta": 28,
+    "largo_cm": 95,
+    "alto_cm": 29.5,
+    "ancho_cm": 70
+  },
+  {
+    "codigo": "PF102PG",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 7760,
+    "empaque_canasta": 28,
+    "largo_cm": 95,
     "alto_cm": 30,
-    "ancho_cm": 60
+    "ancho_cm": 55
+  },
+  {
+    "codigo": "PF104B",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 5280,
+    "empaque_canasta": 30,
+    "largo_cm": 72,
+    "alto_cm": 32,
+    "ancho_cm": 51
+  },
+  {
+    "codigo": "PF104JF",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 7520,
+    "empaque_canasta": 25,
+    "largo_cm": 71,
+    "alto_cm": 31,
+    "ancho_cm": 50
+  },
+  {
+    "codigo": "PF104PG",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 7500,
+    "empaque_canasta": 25,
+    "largo_cm": 75,
+    "alto_cm": 35,
+    "ancho_cm": 50
+  },
+  {
+    "codigo": "PF106B",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 8580,
+    "empaque_canasta": 28,
+    "largo_cm": 82,
+    "alto_cm": 28,
+    "ancho_cm": 55
+  },
+  {
+    "codigo": "PF107",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 7320,
+    "empaque_canasta": 25,
+    "largo_cm": 74,
+    "alto_cm": 33,
+    "ancho_cm": 48.5
+  },
+  {
+    "codigo": "PF110",
+    "empaque": "MASTER VOLQUETA DE LUJO",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 5320,
+    "empaque_canasta": 20,
+    "largo_cm": 77,
+    "alto_cm": 31,
+    "ancho_cm": 52
+  },
+  {
+    "codigo": "PF110PR",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 25,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF112",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 32,
+    "peso_unidad_empaque": 7800,
+    "empaque_canasta": 24,
+    "largo_cm": 33,
+    "alto_cm": 48,
+    "ancho_cm": 58
+  },
+  {
+    "codigo": "PF114",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": 7220,
+    "empaque_canasta": 24,
+    "largo_cm": 33,
+    "alto_cm": 48,
+    "ancho_cm": 58
+  },
+  {
+    "codigo": "PF116",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 32,
+    "peso_unidad_empaque": 8740,
+    "empaque_canasta": 24,
+    "largo_cm": 33,
+    "alto_cm": 48,
+    "ancho_cm": 58
+  },
+  {
+    "codigo": "PF118",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": 7880,
+    "empaque_canasta": 24,
+    "largo_cm": 33,
+    "alto_cm": 48,
+    "ancho_cm": 58
+  },
+  {
+    "codigo": "PF102M",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 6640,
+    "empaque_canasta": 28,
+    "largo_cm": 0.82,
+    "alto_cm": 0.295,
+    "ancho_cm": 0.64
+  },
+  {
+    "codigo": "PF102P",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 6540,
+    "empaque_canasta": 28,
+    "largo_cm": 0.95,
+    "alto_cm": 0.295,
+    "ancho_cm": 0.7
+  },
+  {
+    "codigo": "PF102PG",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 7760,
+    "empaque_canasta": 28,
+    "largo_cm": 0.95,
+    "alto_cm": 0.3,
+    "ancho_cm": 0.55
+  },
+  {
+    "codigo": "PF104B",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 5280,
+    "empaque_canasta": 30,
+    "largo_cm": 0.72,
+    "alto_cm": 0.32,
+    "ancho_cm": 0.51
+  },
+  {
+    "codigo": "PF104JF",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 7520,
+    "empaque_canasta": 25,
+    "largo_cm": 0.71,
+    "alto_cm": 0.31,
+    "ancho_cm": 0.5
+  },
+  {
+    "codigo": "PF104PG",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 7500,
+    "empaque_canasta": 25,
+    "largo_cm": 0.75,
+    "alto_cm": 0.35,
+    "ancho_cm": 0.5
+  },
+  {
+    "codigo": "PF106B",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 8580,
+    "empaque_canasta": 28,
+    "largo_cm": 0.82,
+    "alto_cm": 0.28,
+    "ancho_cm": 0.55
+  },
+  {
+    "codigo": "PF107",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 7320,
+    "empaque_canasta": 25,
+    "largo_cm": 0.74,
+    "alto_cm": 0.33,
+    "ancho_cm": 0.485
+  },
+  {
+    "codigo": "PF110",
+    "empaque": "MASTER VOLQUETA DE LUJO",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 5320,
+    "empaque_canasta": 20,
+    "largo_cm": 0.77,
+    "alto_cm": 0.31,
+    "ancho_cm": 0.52
+  },
+  {
+    "codigo": "PF110PR",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 25,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF112",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 32,
+    "peso_unidad_empaque": 7800,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF114",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": 7220,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF116",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 32,
+    "peso_unidad_empaque": 8740,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF118",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": 7880,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF120",
+    "empaque": "CAJA MASTER SET CBT X 4",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": 14060,
+    "empaque_canasta": 12,
+    "largo_cm": 0.83,
+    "alto_cm": 0.54,
+    "ancho_cm": 0.43
+  },
+  {
+    "codigo": "PF121",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 16,
+    "peso_unidad_empaque": 5900,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF122",
+    "empaque": "MASTER VAGÓN BTOYS BLOCKS",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": 14060,
+    "empaque_canasta": 10,
+    "largo_cm": 0.68,
+    "alto_cm": 0.43,
+    "ancho_cm": 0.7
+  },
+  {
+    "codigo": "PF130",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 120,
+    "peso_unidad_empaque": 9520,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF135",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 50,
+    "peso_unidad_empaque": 7020,
+    "empaque_canasta": 30,
+    "largo_cm": 0.79,
+    "alto_cm": 0.265,
+    "ancho_cm": 0.605
+  },
+  {
+    "codigo": "PF135B",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 40,
+    "peso_unidad_empaque": 7060,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF140",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 36,
+    "peso_unidad_empaque": 9540,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF145",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 30,
+    "peso_unidad_empaque": 7380,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF150-1",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": 9740,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF150-2",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": 9760,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF150X2-1",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 60,
+    "peso_unidad_empaque": 9580,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF150X2-2",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 60,
+    "peso_unidad_empaque": 9560,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF151-1",
+    "empaque": "MASTER LOTERIA",
+    "unidad_empaque_gramos": 60,
+    "peso_unidad_empaque": 4180,
+    "empaque_canasta": 72,
+    "largo_cm": 0.35,
+    "alto_cm": 0.24,
+    "ancho_cm": 0.44
+  },
+  {
+    "codigo": "PF151-2",
+    "empaque": "MASTER LOTERIA",
+    "unidad_empaque_gramos": 60,
+    "peso_unidad_empaque": 4260,
+    "empaque_canasta": 72,
+    "largo_cm": 0.35,
+    "alto_cm": 0.24,
+    "ancho_cm": 0.44
+  },
+  {
+    "codigo": "PF152",
+    "empaque": "MASTER VAGÓN BTOYS BLOCKS",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": null,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF155-1",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 6440,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF155-2",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 7080,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF156",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 33,
+    "peso_unidad_empaque": 6600,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF205B",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 100,
+    "peso_unidad_empaque": 9180,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF210",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 80,
+    "peso_unidad_empaque": 8480,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF215",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 7260,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF221",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 150,
+    "peso_unidad_empaque": 11680,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF300N",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 8,
+    "peso_unidad_empaque": 5840,
+    "empaque_canasta": 25,
+    "largo_cm": 0.645,
+    "alto_cm": 0.49,
+    "ancho_cm": 0.52
+  },
+  {
+    "codigo": "PF300NB",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 8,
+    "peso_unidad_empaque": 5600,
+    "empaque_canasta": 25,
+    "largo_cm": 0.66,
+    "alto_cm": 0.445,
+    "ancho_cm": 0.4
+  },
+  {
+    "codigo": "PF300NP",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 8,
+    "peso_unidad_empaque": 6240,
+    "empaque_canasta": 25,
+    "largo_cm": 0.7,
+    "alto_cm": 0.4,
+    "ancho_cm": 0.46
+  },
+  {
+    "codigo": "PF400",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": 13300,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF450",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF460",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF500",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": 12940,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF500B",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 12060,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF550",
+    "empaque": "BOLSA 31 X 37",
+    "unidad_empaque_gramos": 4,
+    "peso_unidad_empaque": 3700,
+    "empaque_canasta": 50,
+    "largo_cm": 0.55,
+    "alto_cm": 0.21,
+    "ancho_cm": 0.46
+  },
+  {
+    "codigo": "PF550B",
+    "empaque": "BOLSA 31 X 37",
+    "unidad_empaque_gramos": 4,
+    "peso_unidad_empaque": 4280,
+    "empaque_canasta": 50,
+    "largo_cm": 0.675,
+    "alto_cm": 0.19,
+    "ancho_cm": 0.47
+  },
+  {
+    "codigo": "PF550PR",
+    "empaque": "BOLSA 31 X 37",
+    "unidad_empaque_gramos": 4,
+    "peso_unidad_empaque": 4000,
+    "empaque_canasta": 50,
+    "largo_cm": 0.735,
+    "alto_cm": 0.2,
+    "ancho_cm": 0.54
+  },
+  {
+    "codigo": "PF551",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 8,
+    "peso_unidad_empaque": 7120,
+    "empaque_canasta": 25,
+    "largo_cm": 0.675,
+    "alto_cm": 0.4,
+    "ancho_cm": 0.47
+  },
+  {
+    "codigo": "PF552",
+    "empaque": "CAJA MASTER BOMBERO CLASSIC TRUCK X 9UND",
+    "unidad_empaque_gramos": 9,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 11,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF215",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 28,
+    "peso_unidad_empaque": 7260,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF221",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 150,
+    "peso_unidad_empaque": 11680,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF300N",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 8,
+    "peso_unidad_empaque": 5840,
+    "empaque_canasta": 25,
+    "largo_cm": 0.645,
+    "alto_cm": 0.49,
+    "ancho_cm": 0.52
+  },
+  {
+    "codigo": "PF300NB",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 8,
+    "peso_unidad_empaque": 5600,
+    "empaque_canasta": 25,
+    "largo_cm": 0.66,
+    "alto_cm": 0.445,
+    "ancho_cm": 0.4
+  },
+  {
+    "codigo": "PF300NP",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 8,
+    "peso_unidad_empaque": 6240,
+    "empaque_canasta": 25,
+    "largo_cm": 0.7,
+    "alto_cm": 0.4,
+    "ancho_cm": 0.46
+  },
+  {
+    "codigo": "PF400",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": 13300,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF450",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF460",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF500",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": 12940,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF500B",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 12060,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF550",
+    "empaque": "BOLSA 31 X 37",
+    "unidad_empaque_gramos": 4,
+    "peso_unidad_empaque": 3700,
+    "empaque_canasta": 50,
+    "largo_cm": 0.55,
+    "alto_cm": 0.21,
+    "ancho_cm": 0.46
+  },
+  {
+    "codigo": "PF550B",
+    "empaque": "BOLSA 31 X 37",
+    "unidad_empaque_gramos": 4,
+    "peso_unidad_empaque": 4280,
+    "empaque_canasta": 50,
+    "largo_cm": 0.675,
+    "alto_cm": 0.19,
+    "ancho_cm": 0.47
+  },
+  {
+    "codigo": "PF550PR",
+    "empaque": "BOLSA 31 X 37",
+    "unidad_empaque_gramos": 4,
+    "peso_unidad_empaque": 4000,
+    "empaque_canasta": 50,
+    "largo_cm": 0.735,
+    "alto_cm": 0.2,
+    "ancho_cm": 0.54
+  },
+  {
+    "codigo": "PF551",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 8,
+    "peso_unidad_empaque": 7120,
+    "empaque_canasta": 25,
+    "largo_cm": 0.675,
+    "alto_cm": 0.4,
+    "ancho_cm": 0.47
+  },
+  {
+    "codigo": "PF552",
+    "empaque": "CAJA MASTER BOMBERO CLASSIC TRUCK X 9UND",
+    "unidad_empaque_gramos": 9,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 11,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF553",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 8,
+    "peso_unidad_empaque": 7940,
+    "empaque_canasta": 25,
+    "largo_cm": 0.71,
+    "alto_cm": 0.39,
+    "ancho_cm": 0.38
+  },
+  {
+    "codigo": "PF554",
+    "empaque": "MASTER TRUCK",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 5,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF560",
+    "empaque": "MASTER TOCADOR",
+    "unidad_empaque_gramos": 10,
+    "peso_unidad_empaque": 9640,
+    "empaque_canasta": 10,
+    "largo_cm": 0.48,
+    "alto_cm": 0.77,
+    "ancho_cm": 0.7
+  },
+  {
+    "codigo": "PF610",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": 5694,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF620",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 20,
+    "peso_unidad_empaque": 8340,
+    "empaque_canasta": 25,
+    "largo_cm": 0.67,
+    "alto_cm": 0.375,
+    "ancho_cm": 0.39
+  },
+  {
+    "codigo": "PF640",
+    "empaque": "MASTER CUNA",
+    "unidad_empaque_gramos": 24,
+    "peso_unidad_empaque": 15140,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF715",
+    "empaque": "MASTER RECOLECTOR DE BASURA",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 12180,
+    "empaque_canasta": 14,
+    "largo_cm": 0.42,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.41
+  },
+  {
+    "codigo": "PF720",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 14700,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF723",
+    "empaque": "CAJA MASTER MINI MULA HEAVY MACHINERY X8UND",
+    "unidad_empaque_gramos": 8,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 6,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF725",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 12220,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF726",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 18,
+    "peso_unidad_empaque": 751,
+    "empaque_canasta": 12,
+    "largo_cm": 0.68,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.6
+  },
+  {
+    "codigo": "PF730",
+    "empaque": "MASTER MEZCLADOR",
+    "unidad_empaque_gramos": 15,
+    "peso_unidad_empaque": 11460,
+    "empaque_canasta": 12,
+    "largo_cm": 0.58,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.68
+  },
+  {
+    "codigo": "PF825",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 48,
+    "peso_unidad_empaque": 10380,
+    "empaque_canasta": 24,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF830",
+    "empaque": "MASTER CUNA",
+    "unidad_empaque_gramos": 10,
+    "peso_unidad_empaque": 9280,
+    "empaque_canasta": 12,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF831",
+    "empaque": "CAJA CARRITO CON MERCADO",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 960,
+    "empaque_canasta": 52,
+    "largo_cm": 0.345,
+    "alto_cm": 0.47,
+    "ancho_cm": 0.26
+  },
+  {
+    "codigo": "PF835",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 10,
+    "peso_unidad_empaque": 6540,
+    "empaque_canasta": 10,
+    "largo_cm": 0.33,
+    "alto_cm": 0.48,
+    "ancho_cm": 0.58
+  },
+  {
+    "codigo": "PF835C",
+    "empaque": "CAJA COCHE OSITO",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 571,
+    "empaque_canasta": 117,
+    "largo_cm": 0.39,
+    "alto_cm": 0.6,
+    "ancho_cm": 0.27
+  },
+  {
+    "codigo": "PF840",
+    "empaque": "MASTER COCINA SOBRE RUEDAS",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": 11920,
+    "empaque_canasta": 10,
+    "largo_cm": 0.68,
+    "alto_cm": 0.44,
+    "ancho_cm": 0.7
+  },
+  {
+    "codigo": "PF850",
+    "empaque": "MASTER CUNA",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 12,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF850B",
+    "empaque": "BOLSA 31 X50",
+    "unidad_empaque_gramos": 10,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 21,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF855",
+    "empaque": "CAJA BUTACO COCINA",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 1983,
+    "empaque_canasta": 60,
+    "largo_cm": 0.31,
+    "alto_cm": 0.56,
+    "ancho_cm": 0.35
+  },
+  {
+    "codigo": "PF860",
+    "empaque": "MASTER COCINA",
+    "unidad_empaque_gramos": 6,
+    "peso_unidad_empaque": 12900,
+    "empaque_canasta": 9,
+    "largo_cm": 0.515,
+    "alto_cm": 0.62,
+    "ancho_cm": 0.81
+  },
+  {
+    "codigo": "PF861",
+    "empaque": "MASTER COCINA",
+    "unidad_empaque_gramos": 6,
+    "peso_unidad_empaque": 12900,
+    "empaque_canasta": 9,
+    "largo_cm": 0.515,
+    "alto_cm": 0.62,
+    "ancho_cm": 0.81
+  },
+  {
+    "codigo": "PF870",
+    "empaque": "MASTER TOCADOR",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": 15640,
+    "empaque_canasta": 10,
+    "largo_cm": 0.48,
+    "alto_cm": 0.77,
+    "ancho_cm": 0.7
+  },
+  {
+    "codigo": "PF890-1",
+    "empaque": "MASTER VAGÓN BTOYS BLOCKS",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": 15340,
+    "empaque_canasta": 10,
+    "largo_cm": 0.68,
+    "alto_cm": 0.43,
+    "ancho_cm": 0.7
+  },
+  {
+    "codigo": "PF890-2",
+    "empaque": "MASTER VAGÓN BTOYS BLOCKS",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": 15340,
+    "empaque_canasta": 10,
+    "largo_cm": 0.68,
+    "alto_cm": 0.43,
+    "ancho_cm": 0.7
+  },
+  {
+    "codigo": "PF891",
+    "empaque": "MASTER VAGÓN BTOYS BLOCKS",
+    "unidad_empaque_gramos": 12,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 10,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF893-1",
+    "empaque": "BOLSA 22 X 36",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 2100,
+    "empaque_canasta": 72,
+    "largo_cm": 0.3,
+    "alto_cm": 0.37,
+    "ancho_cm": 0.3
+  },
+  {
+    "codigo": "PF893-2",
+    "empaque": "BOLSA 22 X 36",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 2060,
+    "empaque_canasta": 72,
+    "largo_cm": 0.3,
+    "alto_cm": 0.37,
+    "ancho_cm": 0.3
+  },
+  {
+    "codigo": "PF894-1",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 27,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 24,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF894-2",
+    "empaque": "MASTER MIS PEQUEÑOS GIGANTES",
+    "unidad_empaque_gramos": 27,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 24,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF900-1",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3660,
+    "empaque_canasta": 30,
+    "largo_cm": 0.74,
+    "alto_cm": 0.4,
+    "ancho_cm": 0.41
+  },
+  {
+    "codigo": "PF900R",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3660,
+    "empaque_canasta": 30,
+    "largo_cm": 0.74,
+    "alto_cm": 0.4,
+    "ancho_cm": 0.41
+  },
+  {
+    "codigo": "PF902",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 4220,
+    "empaque_canasta": 30,
+    "largo_cm": 0.77,
+    "alto_cm": 0.43,
+    "ancho_cm": 0.41
+  },
+  {
+    "codigo": "PF905-1",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3120,
+    "empaque_canasta": 42,
+    "largo_cm": 0.65,
+    "alto_cm": 0.39,
+    "ancho_cm": 0.3
+  },
+  {
+    "codigo": "PF905-2",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 2800,
+    "empaque_canasta": 42,
+    "largo_cm": 0.65,
+    "alto_cm": 0.39,
+    "ancho_cm": 0.3
+  },
+  {
+    "codigo": "PF906",
+    "empaque": "BOLSA 31 X 43",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 42,
+    "largo_cm": 0.65,
+    "alto_cm": 0.39,
+    "ancho_cm": 0.3
+  },
+  {
+    "codigo": "PF910-2",
+    "empaque": "BOLSA 31X43",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 2220,
+    "empaque_canasta": 72,
+    "largo_cm": 0.65,
+    "alto_cm": 0.44,
+    "ancho_cm": 0.33
+  },
+  {
+    "codigo": "PF915",
+    "empaque": "BOLSA 31 X 37",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3000,
+    "empaque_canasta": 48,
+    "largo_cm": 0.5,
+    "alto_cm": 0.42,
+    "ancho_cm": 0.35
+  },
+  {
+    "codigo": "PF920",
+    "empaque": "BOLSA 31 X 37",
+    "unidad_empaque_gramos": 2,
+    "peso_unidad_empaque": 3300,
+    "empaque_canasta": 96,
+    "largo_cm": 0.44,
+    "alto_cm": 0.31,
+    "ancho_cm": 0.49
+  },
+  {
+    "codigo": "PF925-1",
+    "empaque": "CAJA BOY TOYS TODOTERRENO",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 0,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF925-2",
+    "empaque": "CAJA BOY TOYS TODOTERRENO",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": 0,
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF930-1",
+    "empaque": "BOLSA 22 X 36",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 2390,
+    "empaque_canasta": 80,
+    "largo_cm": 0.5,
+    "alto_cm": 0.35,
+    "ancho_cm": 0.27
+  },
+  {
+    "codigo": "PF930-2",
+    "empaque": "BOLSA 22 X 36",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 2408,
+    "empaque_canasta": 80,
+    "largo_cm": 0.5,
+    "alto_cm": 0.39,
+    "ancho_cm": 0.27
+  },
+  {
+    "codigo": "PF930C-1",
+    "empaque": "CAJA JEEP FULL",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3126,
+    "empaque_canasta": 47,
+    "largo_cm": 0.63,
+    "alto_cm": 0.28,
+    "ancho_cm": 0.28
+  },
+  {
+    "codigo": "PF930C-2",
+    "empaque": "CAJA JEEP FULL",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3072,
+    "empaque_canasta": 47,
+    "largo_cm": 0.63,
+    "alto_cm": 0.28,
+    "ancho_cm": 0.28
+  },
+  {
+    "codigo": "PF932",
+    "empaque": "CAJA JEEP FULL",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3217,
+    "empaque_canasta": 47,
+    "largo_cm": 0.63,
+    "alto_cm": 0.28,
+    "ancho_cm": 0.28
+  },
+  {
+    "codigo": "PF934",
+    "empaque": "CAJA JEEP FULL",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3000,
+    "empaque_canasta": 47,
+    "largo_cm": 0.63,
+    "alto_cm": 0.28,
+    "ancho_cm": 0.28
+  },
+  {
+    "codigo": "PF936",
+    "empaque": "CAJA JEEP FULL",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3240,
+    "empaque_canasta": 47,
+    "largo_cm": 0.63,
+    "alto_cm": 0.28,
+    "ancho_cm": 0.28
+  },
+  {
+    "codigo": "PF940-1",
+    "empaque": "CAJA CAR",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3071,
+    "empaque_canasta": 42,
+    "largo_cm": 0.685,
+    "alto_cm": 0.292,
+    "ancho_cm": 0.274
+  },
+  {
+    "codigo": "PF940-2",
+    "empaque": "CAJA CAR",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3170,
+    "empaque_canasta": 42,
+    "largo_cm": 0.685,
+    "alto_cm": 0.292,
+    "ancho_cm": 0.274
+  },
+  {
+    "codigo": "PF947-1",
+    "empaque": "CAJA CUATRIMOTO",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3730,
+    "empaque_canasta": 24,
+    "largo_cm": 0.56,
+    "alto_cm": 0.414,
+    "ancho_cm": 0.402
+  },
+  {
+    "codigo": "PF947-2",
+    "empaque": "CAJA CUATRIMOTO",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3520,
+    "empaque_canasta": 24,
+    "largo_cm": 0.56,
+    "alto_cm": 0.414,
+    "ancho_cm": 0.402
+  },
+  {
+    "codigo": "PF950-1",
+    "empaque": "CAJA MI PRIMER MONTABLE",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 1605,
+    "empaque_canasta": 96,
+    "largo_cm": 0.26,
+    "alto_cm": 0.432,
+    "ancho_cm": 0.23
+  },
+  {
+    "codigo": "PF950-2",
+    "empaque": "CAJA MI PRIMER MONTABLE",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 1602,
+    "empaque_canasta": 96,
+    "largo_cm": 0.26,
+    "alto_cm": 0.432,
+    "ancho_cm": 0.23
+  },
+  {
+    "codigo": "PF950B-1",
+    "empaque": "CAJA MI PRIMER MONTABLE",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 1580,
+    "empaque_canasta": 96,
+    "largo_cm": 0.26,
+    "alto_cm": 0.432,
+    "ancho_cm": 0.23
+  },
+  {
+    "codigo": "PF955-1",
+    "empaque": "CAJA CAMPER TOYS",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3420,
+    "empaque_canasta": 36,
+    "largo_cm": 0.62,
+    "alto_cm": 0.42,
+    "ancho_cm": 0.4
+  },
+  {
+    "codigo": "PF955-2",
+    "empaque": "CAJA CAMPER TOYS",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3420,
+    "empaque_canasta": 36,
+    "largo_cm": 0.336,
+    "alto_cm": 0.61,
+    "ancho_cm": 0.336
+  },
+  {
+    "codigo": "PF960-1",
+    "empaque": "CAJA BOY TOYS TRUCK",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 2848,
+    "empaque_canasta": 46,
+    "largo_cm": 0.683,
+    "alto_cm": 0.32,
+    "ancho_cm": 0.262
+  },
+  {
+    "codigo": "PF960-2",
+    "empaque": "CAJA BOY TOYS TRUCK",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 2874,
+    "empaque_canasta": 46,
+    "largo_cm": 0.683,
+    "alto_cm": 0.32,
+    "ancho_cm": 0.262
+  },
+  {
+    "codigo": "PF965",
+    "empaque": "CAJA ELITE",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 2844,
+    "empaque_canasta": 40,
+    "largo_cm": 0.666,
+    "alto_cm": 0.355,
+    "ancho_cm": 0.26
+  },
+  {
+    "codigo": "PF966",
+    "empaque": "CAJA MASTER ELITE ARENERA",
+    "unidad_empaque_gramos": 6,
+    "peso_unidad_empaque": 17180,
+    "empaque_canasta": 6,
+    "largo_cm": 1.05,
+    "alto_cm": 0.535,
+    "ancho_cm": 0.66
+  },
+  {
+    "codigo": "PF970-1",
+    "empaque": "CAJA MI MULITA",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3400,
+    "empaque_canasta": 24,
+    "largo_cm": 0.61,
+    "alto_cm": 0.403,
+    "ancho_cm": 0.358
+  },
+  {
+    "codigo": "PF970-2",
+    "empaque": "CAJA MI MULITA",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3380,
+    "empaque_canasta": 24,
+    "largo_cm": 0.61,
+    "alto_cm": 0.403,
+    "ancho_cm": 0.358
+  },
+  {
+    "codigo": "PF980-1",
+    "empaque": "PENDIENTE",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": "PENDIENTE",
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF980-2",
+    "empaque": "PENDIENTE",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": null,
+    "empaque_canasta": "PENDIENTE",
+    "largo_cm": null,
+    "alto_cm": null,
+    "ancho_cm": null
+  },
+  {
+    "codigo": "PF1500-1",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3222,
+    "empaque_canasta": 42,
+    "largo_cm": 0.87,
+    "alto_cm": 0.49,
+    "ancho_cm": 0.49
+  },
+  {
+    "codigo": "PF1500-2",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3294,
+    "empaque_canasta": 42,
+    "largo_cm": 0.87,
+    "alto_cm": 0.49,
+    "ancho_cm": 0.49
+  },
+  {
+    "codigo": "PF1505-1",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 4596,
+    "empaque_canasta": 30,
+    "largo_cm": 0.88,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.5
+  },
+  {
+    "codigo": "PF1505-2",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 4526,
+    "empaque_canasta": 30,
+    "largo_cm": 0.88,
+    "alto_cm": 0.53,
+    "ancho_cm": 0.5
+  },
+  {
+    "codigo": "PF1510-1",
+    "empaque": "BOLSA 31 X 37",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 2517,
+    "empaque_canasta": 72,
+    "largo_cm": 0.59,
+    "alto_cm": 0.45,
+    "ancho_cm": 0.22
+  },
+  {
+    "codigo": "PF1510-2",
+    "empaque": "BOLSA 31 X 37",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 2574,
+    "empaque_canasta": 72,
+    "largo_cm": 0.59,
+    "alto_cm": 0.45,
+    "ancho_cm": 0.22
+  },
+  {
+    "codigo": "PF1520-1",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 4000,
+    "empaque_canasta": 30,
+    "largo_cm": 0.79,
+    "alto_cm": 0.49,
+    "ancho_cm": 0.5
+  },
+  {
+    "codigo": "PF1520-1S",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 4000,
+    "empaque_canasta": 30,
+    "largo_cm": 0.79,
+    "alto_cm": 0.49,
+    "ancho_cm": 0.5
+  },
+  {
+    "codigo": "PF1520-2",
+    "empaque": "BOLSA 31 X 50",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 3740,
+    "empaque_canasta": 30,
+    "largo_cm": 0.79,
+    "alto_cm": 0.49,
+    "ancho_cm": 0.5
   }
 ]
