@@ -155,9 +155,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 6540,
     "empaque_canasta": 28,
-    "largo_cm": 95,
-    "alto_cm": 29.5,
-    "ancho_cm": 70
+    "largo_m": 95,
+    "alto_m": 29.5,
+    "ancho_m": 70
   },
   {
     "codigo": "PF102PG",

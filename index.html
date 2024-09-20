@@ -10,7 +10,10 @@
     <h1>Pedido de Productos</h1>
 
     <!-- Área de texto para pegar productos -->
-    <textarea id="pedido" rows="15" placeholder="Pega productos aquí (ej: PF101,12)"></textarea>
+     <div class="input-group" style="margin-bottom: 20px; background-color: #f4f4f9" >
+        <textarea id="pedido" rows="15" placeholder="Pega productos aquí (ej: PF101,12)"></textarea>
+     </div>
+    
 
     <h2>Resultados Totales</h2>
 <div id="resultado-totales">
@@ -29,10 +32,10 @@
                 <tr>
                     <th>Código</th>
                     <th>Empaque</th>
-                    <th>Largo </th>
+                    <!-- <th>Largo </th>
                     <th>Alto </th>
-                    <th>Ancho </th>
-                    <th>Unidad Empaque (Grs)</th>
+                    <th>Ancho </th> -->
+                    <th>Unidad Empaque </th>
                     <th>Peso Unidad (Grs)</th>
                     <th>Empaque Canasta</th>
                     <th>Volumen Unidad (m³)</th>
@@ -73,6 +76,12 @@
 
 
     </div>
+
+    <div id="canastillas"></div>
+        <h2>Resultados Canastillas</h2>
+
+        </div>
+
 
     <!-- Enlace al archivo de JavaScript -->
     <script src="logica.js"></script>
