@@ -5,9 +5,9 @@
     "unidad_empaque_gramos": 50,
     "peso_unidad_empaque": null,
     "empaque_canasta": 15,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "AT0004",
@@ -15,9 +15,9 @@
     "unidad_empaque_gramos": 100,
     "peso_unidad_empaque": null,
     "empaque_canasta": 15,
-    "largo_cm": 0.43,
-    "alto_cm": 0.87,
-    "ancho_cm": 0.54
+    "largo_m": 0.43,
+    "alto_m": 0.87,
+    "ancho_m": 0.54
   },
   {
     "codigo": "AT0006",
@@ -25,9 +25,9 @@
     "unidad_empaque_gramos": 40,
     "peso_unidad_empaque": null,
     "empaque_canasta": 15,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "AT0008",
@@ -35,9 +35,9 @@
     "unidad_empaque_gramos": 40,
     "peso_unidad_empaque": 6600,
     "empaque_canasta": 15,
-    "largo_cm": 0.885,
-    "alto_cm": 0.41,
-    "ancho_cm": 0.51
+    "largo_m": 0.885,
+    "alto_m": 0.41,
+    "ancho_m": 0.51
   },
   {
     "codigo": "AT0010",
@@ -45,9 +45,9 @@
     "unidad_empaque_gramos": 40,
     "peso_unidad_empaque": 5680,
     "empaque_canasta": 15,
-    "largo_cm": 0.77,
-    "alto_cm": 0.36,
-    "ancho_cm": 0.53
+    "largo_m": 0.77,
+    "alto_m": 0.36,
+    "ancho_m": 0.53
   },
   {
     "codigo": "AT0011",
@@ -55,9 +55,9 @@
     "unidad_empaque_gramos": 40,
     "peso_unidad_empaque": 4580,
     "empaque_canasta": 15,
-    "largo_cm": 0.71,
-    "alto_cm": 0.34,
-    "ancho_cm": 0.5
+    "largo_m": 0.71,
+    "alto_m": 0.34,
+    "ancho_m": 0.5
   },
   {
     "codigo": "PF101",
@@ -65,9 +65,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 5620,
     "empaque_canasta": 28,
-    "largo_cm": 0.77,
-    "alto_cm": 0.3,
-    "ancho_cm": 0.6
+    "largo_m": 0.77,
+    "alto_m": 0.3,
+    "ancho_m": 0.6
   },
   {
     "codigo": "PF101B",
@@ -75,9 +75,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 6920,
     "empaque_canasta": 28,
-    "largo_cm": 0.9,
-    "alto_cm": 0.325,
-    "ancho_cm": 0.55
+    "largo_m": 0.9,
+    "alto_m": 0.325,
+    "ancho_m": 0.55
   },
   {
     "codigo": "PF101PG",
@@ -85,9 +85,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 7640,
     "empaque_canasta": 28,
-    "largo_cm": 0.565,
-    "alto_cm": 0.73,
-    "ancho_cm": 0.5
+    "largo_m": 0.565,
+    "alto_m": 0.73,
+    "ancho_m": 0.5
   },
   {
     "codigo": "PF101PR",
@@ -95,9 +95,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 6180,
     "empaque_canasta": 28,
-    "largo_cm": 0.9,
-    "alto_cm": 0.3,
-    "ancho_cm": 0.55
+    "largo_m": 0.9,
+    "alto_m": 0.3,
+    "ancho_m": 0.55
   },
   {
     "codigo": "PF102",
@@ -105,9 +105,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 5320,
     "empaque_canasta": 28,
-    "largo_cm": 0.88,
-    "alto_cm": 0.3,
-    "ancho_cm": 0.55
+    "largo_m": 0.88,
+    "alto_m": 0.3,
+    "ancho_m": 0.55
   },
   {
     "codigo": "PF102B",
@@ -115,9 +115,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 8004,
     "empaque_canasta": 28,
-    "largo_cm": 0.9,
-    "alto_cm": 0.285,
-    "ancho_cm": 0.55
+    "largo_m": 0.9,
+    "alto_m": 0.285,
+    "ancho_m": 0.55
   },
   {
     "codigo": "PF102F",
@@ -125,9 +125,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 8540,
     "empaque_canasta": 28,
-    "largo_cm": 0.95,
-    "alto_cm": 0.29,
-    "ancho_cm": 0.55
+    "largo_m": 0.95,
+    "alto_m": 0.29,
+    "ancho_m": 0.55
   },
   {
     "codigo": "PF102J",
@@ -135,9 +135,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 8008,
     "empaque_canasta": 28,
-    "largo_cm": 0.82,
-    "alto_cm": 0.235,
-    "ancho_cm": 0.61
+    "largo_m": 0.82,
+    "alto_m": 0.235,
+    "ancho_m": 0.61
   },
   {
     "codigo": "PF102M",
@@ -145,9 +145,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 6640,
     "empaque_canasta": 28,
-    "largo_cm": 82,
-    "alto_cm": 29.5,
-    "ancho_cm": 64
+    "largo_m": 82,
+    "alto_m": 29.5,
+    "ancho_m": 64
   },
   {
     "codigo": "PF102P",
@@ -165,9 +165,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 7760,
     "empaque_canasta": 28,
-    "largo_cm": 95,
-    "alto_cm": 30,
-    "ancho_cm": 55
+    "largo_m": 95,
+    "alto_m": 30,
+    "ancho_m": 55
   },
   {
     "codigo": "PF104B",
@@ -175,9 +175,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 5280,
     "empaque_canasta": 30,
-    "largo_cm": 72,
-    "alto_cm": 32,
-    "ancho_cm": 51
+    "largo_m": 72,
+    "alto_m": 32,
+    "ancho_m": 51
   },
   {
     "codigo": "PF104JF",
@@ -185,9 +185,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 7520,
     "empaque_canasta": 25,
-    "largo_cm": 71,
-    "alto_cm": 31,
-    "ancho_cm": 50
+    "largo_m": 71,
+    "alto_m": 31,
+    "ancho_m": 50
   },
   {
     "codigo": "PF104PG",
@@ -195,9 +195,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 7500,
     "empaque_canasta": 25,
-    "largo_cm": 75,
-    "alto_cm": 35,
-    "ancho_cm": 50
+    "largo_m": 75,
+    "alto_m": 35,
+    "ancho_m": 50
   },
   {
     "codigo": "PF106B",
@@ -205,9 +205,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 8580,
     "empaque_canasta": 28,
-    "largo_cm": 82,
-    "alto_cm": 28,
-    "ancho_cm": 55
+    "largo_m": 82,
+    "alto_m": 28,
+    "ancho_m": 55
   },
   {
     "codigo": "PF107",
@@ -215,9 +215,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 7320,
     "empaque_canasta": 25,
-    "largo_cm": 74,
-    "alto_cm": 33,
-    "ancho_cm": 48.5
+    "largo_m": 74,
+    "alto_m": 33,
+    "ancho_m": 48.5
   },
   {
     "codigo": "PF110",
@@ -225,9 +225,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 5320,
     "empaque_canasta": 20,
-    "largo_cm": 77,
-    "alto_cm": 31,
-    "ancho_cm": 52
+    "largo_m": 77,
+    "alto_m": 31,
+    "ancho_m": 52
   },
   {
     "codigo": "PF110PR",
@@ -235,9 +235,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": null,
     "empaque_canasta": 25,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF112",
@@ -245,9 +245,9 @@
     "unidad_empaque_gramos": 32,
     "peso_unidad_empaque": 7800,
     "empaque_canasta": 24,
-    "largo_cm": 33,
-    "alto_cm": 48,
-    "ancho_cm": 58
+    "largo_m": 33,
+    "alto_m": 48,
+    "ancho_m": 58
   },
   {
     "codigo": "PF114",
@@ -255,9 +255,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": 7220,
     "empaque_canasta": 24,
-    "largo_cm": 33,
-    "alto_cm": 48,
-    "ancho_cm": 58
+    "largo_m": 33,
+    "alto_m": 48,
+    "ancho_m": 58
   },
   {
     "codigo": "PF116",
@@ -265,9 +265,9 @@
     "unidad_empaque_gramos": 32,
     "peso_unidad_empaque": 8740,
     "empaque_canasta": 24,
-    "largo_cm": 33,
-    "alto_cm": 48,
-    "ancho_cm": 58
+    "largo_m": 33,
+    "alto_m": 48,
+    "ancho_m": 58
   },
   {
     "codigo": "PF118",
@@ -275,9 +275,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": 7880,
     "empaque_canasta": 24,
-    "largo_cm": 33,
-    "alto_cm": 48,
-    "ancho_cm": 58
+    "largo_m": 33,
+    "alto_m": 48,
+    "ancho_m": 58
   },
   {
     "codigo": "PF102M",
@@ -285,9 +285,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 6640,
     "empaque_canasta": 28,
-    "largo_cm": 0.82,
-    "alto_cm": 0.295,
-    "ancho_cm": 0.64
+    "largo_m": 0.82,
+    "alto_m": 0.295,
+    "ancho_m": 0.64
   },
   {
     "codigo": "PF102P",
@@ -295,9 +295,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 6540,
     "empaque_canasta": 28,
-    "largo_cm": 0.95,
-    "alto_cm": 0.295,
-    "ancho_cm": 0.7
+    "largo_m": 0.95,
+    "alto_m": 0.295,
+    "ancho_m": 0.7
   },
   {
     "codigo": "PF102PG",
@@ -305,9 +305,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 7760,
     "empaque_canasta": 28,
-    "largo_cm": 0.95,
-    "alto_cm": 0.3,
-    "ancho_cm": 0.55
+    "largo_m": 0.95,
+    "alto_m": 0.3,
+    "ancho_m": 0.55
   },
   {
     "codigo": "PF104B",
@@ -315,9 +315,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 5280,
     "empaque_canasta": 30,
-    "largo_cm": 0.72,
-    "alto_cm": 0.32,
-    "ancho_cm": 0.51
+    "largo_m": 0.72,
+    "alto_m": 0.32,
+    "ancho_m": 0.51
   },
   {
     "codigo": "PF104JF",
@@ -325,9 +325,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 7520,
     "empaque_canasta": 25,
-    "largo_cm": 0.71,
-    "alto_cm": 0.31,
-    "ancho_cm": 0.5
+    "largo_m": 0.71,
+    "alto_m": 0.31,
+    "ancho_m": 0.5
   },
   {
     "codigo": "PF104PG",
@@ -335,9 +335,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 7500,
     "empaque_canasta": 25,
-    "largo_cm": 0.75,
-    "alto_cm": 0.35,
-    "ancho_cm": 0.5
+    "largo_m": 0.75,
+    "alto_m": 0.35,
+    "ancho_m": 0.5
   },
   {
     "codigo": "PF106B",
@@ -345,9 +345,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 8580,
     "empaque_canasta": 28,
-    "largo_cm": 0.82,
-    "alto_cm": 0.28,
-    "ancho_cm": 0.55
+    "largo_m": 0.82,
+    "alto_m": 0.28,
+    "ancho_m": 0.55
   },
   {
     "codigo": "PF107",
@@ -355,9 +355,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 7320,
     "empaque_canasta": 25,
-    "largo_cm": 0.74,
-    "alto_cm": 0.33,
-    "ancho_cm": 0.485
+    "largo_m": 0.74,
+    "alto_m": 0.33,
+    "ancho_m": 0.485
   },
   {
     "codigo": "PF110",
@@ -365,9 +365,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 5320,
     "empaque_canasta": 20,
-    "largo_cm": 0.77,
-    "alto_cm": 0.31,
-    "ancho_cm": 0.52
+    "largo_m": 0.77,
+    "alto_m": 0.31,
+    "ancho_m": 0.52
   },
   {
     "codigo": "PF110PR",
@@ -375,9 +375,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": null,
     "empaque_canasta": 25,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF112",
@@ -385,9 +385,9 @@
     "unidad_empaque_gramos": 32,
     "peso_unidad_empaque": 7800,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF114",
@@ -395,9 +395,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": 7220,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF116",
@@ -405,9 +405,9 @@
     "unidad_empaque_gramos": 32,
     "peso_unidad_empaque": 8740,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF118",
@@ -415,9 +415,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": 7880,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF120",
@@ -425,9 +425,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": 14060,
     "empaque_canasta": 12,
-    "largo_cm": 0.83,
-    "alto_cm": 0.54,
-    "ancho_cm": 0.43
+    "largo_m": 0.83,
+    "alto_m": 0.54,
+    "ancho_m": 0.43
   },
   {
     "codigo": "PF121",
@@ -435,9 +435,9 @@
     "unidad_empaque_gramos": 16,
     "peso_unidad_empaque": 5900,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF122",
@@ -445,9 +445,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": 14060,
     "empaque_canasta": 10,
-    "largo_cm": 0.68,
-    "alto_cm": 0.43,
-    "ancho_cm": 0.7
+    "largo_m": 0.68,
+    "alto_m": 0.43,
+    "ancho_m": 0.7
   },
   {
     "codigo": "PF130",
@@ -455,9 +455,9 @@
     "unidad_empaque_gramos": 120,
     "peso_unidad_empaque": 9520,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF135",
@@ -465,9 +465,9 @@
     "unidad_empaque_gramos": 50,
     "peso_unidad_empaque": 7020,
     "empaque_canasta": 30,
-    "largo_cm": 0.79,
-    "alto_cm": 0.265,
-    "ancho_cm": 0.605
+    "largo_m": 0.79,
+    "alto_m": 0.265,
+    "ancho_m": 0.605
   },
   {
     "codigo": "PF135B",
@@ -475,9 +475,9 @@
     "unidad_empaque_gramos": 40,
     "peso_unidad_empaque": 7060,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF140",
@@ -485,9 +485,9 @@
     "unidad_empaque_gramos": 36,
     "peso_unidad_empaque": 9540,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF145",
@@ -495,9 +495,9 @@
     "unidad_empaque_gramos": 30,
     "peso_unidad_empaque": 7380,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF150-1",
@@ -505,9 +505,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": 9740,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF150-2",
@@ -515,9 +515,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": 9760,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF150X2-1",
@@ -525,9 +525,9 @@
     "unidad_empaque_gramos": 60,
     "peso_unidad_empaque": 9580,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF150X2-2",
@@ -535,9 +535,9 @@
     "unidad_empaque_gramos": 60,
     "peso_unidad_empaque": 9560,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF151-1",
@@ -545,9 +545,9 @@
     "unidad_empaque_gramos": 60,
     "peso_unidad_empaque": 4180,
     "empaque_canasta": 72,
-    "largo_cm": 0.35,
-    "alto_cm": 0.24,
-    "ancho_cm": 0.44
+    "largo_m": 0.35,
+    "alto_m": 0.24,
+    "ancho_m": 0.44
   },
   {
     "codigo": "PF151-2",
@@ -555,9 +555,9 @@
     "unidad_empaque_gramos": 60,
     "peso_unidad_empaque": 4260,
     "empaque_canasta": 72,
-    "largo_cm": 0.35,
-    "alto_cm": 0.24,
-    "ancho_cm": 0.44
+    "largo_m": 0.35,
+    "alto_m": 0.24,
+    "ancho_m": 0.44
   },
   {
     "codigo": "PF152",
@@ -565,9 +565,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": null,
     "empaque_canasta": null,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF155-1",
@@ -575,9 +575,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 6440,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF155-2",
@@ -585,9 +585,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 7080,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF156",
@@ -595,9 +595,9 @@
     "unidad_empaque_gramos": 33,
     "peso_unidad_empaque": 6600,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF205B",
@@ -605,9 +605,9 @@
     "unidad_empaque_gramos": 100,
     "peso_unidad_empaque": 9180,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF210",
@@ -615,9 +615,9 @@
     "unidad_empaque_gramos": 80,
     "peso_unidad_empaque": 8480,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF215",
@@ -625,9 +625,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 7260,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF221",
@@ -635,9 +635,9 @@
     "unidad_empaque_gramos": 150,
     "peso_unidad_empaque": 11680,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF300N",
@@ -645,9 +645,9 @@
     "unidad_empaque_gramos": 8,
     "peso_unidad_empaque": 5840,
     "empaque_canasta": 25,
-    "largo_cm": 0.645,
-    "alto_cm": 0.49,
-    "ancho_cm": 0.52
+    "largo_m": 0.645,
+    "alto_m": 0.49,
+    "ancho_m": 0.52
   },
   {
     "codigo": "PF300NB",
@@ -655,9 +655,9 @@
     "unidad_empaque_gramos": 8,
     "peso_unidad_empaque": 5600,
     "empaque_canasta": 25,
-    "largo_cm": 0.66,
-    "alto_cm": 0.445,
-    "ancho_cm": 0.4
+    "largo_m": 0.66,
+    "alto_m": 0.445,
+    "ancho_m": 0.4
   },
   {
     "codigo": "PF300NP",
@@ -665,9 +665,9 @@
     "unidad_empaque_gramos": 8,
     "peso_unidad_empaque": 6240,
     "empaque_canasta": 25,
-    "largo_cm": 0.7,
-    "alto_cm": 0.4,
-    "ancho_cm": 0.46
+    "largo_m": 0.7,
+    "alto_m": 0.4,
+    "ancho_m": 0.46
   },
   {
     "codigo": "PF400",
@@ -675,9 +675,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": 13300,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF450",
@@ -685,9 +685,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": null,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF460",
@@ -695,9 +695,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": null,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF500",
@@ -705,9 +705,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": 12940,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF500B",
@@ -715,9 +715,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 12060,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF550",
@@ -725,9 +725,9 @@
     "unidad_empaque_gramos": 4,
     "peso_unidad_empaque": 3700,
     "empaque_canasta": 50,
-    "largo_cm": 0.55,
-    "alto_cm": 0.21,
-    "ancho_cm": 0.46
+    "largo_m": 0.55,
+    "alto_m": 0.21,
+    "ancho_m": 0.46
   },
   {
     "codigo": "PF550B",
@@ -735,9 +735,9 @@
     "unidad_empaque_gramos": 4,
     "peso_unidad_empaque": 4280,
     "empaque_canasta": 50,
-    "largo_cm": 0.675,
-    "alto_cm": 0.19,
-    "ancho_cm": 0.47
+    "largo_m": 0.675,
+    "alto_m": 0.19,
+    "ancho_m": 0.47
   },
   {
     "codigo": "PF550PR",
@@ -745,9 +745,9 @@
     "unidad_empaque_gramos": 4,
     "peso_unidad_empaque": 4000,
     "empaque_canasta": 50,
-    "largo_cm": 0.735,
-    "alto_cm": 0.2,
-    "ancho_cm": 0.54
+    "largo_m": 0.735,
+    "alto_m": 0.2,
+    "ancho_m": 0.54
   },
   {
     "codigo": "PF551",
@@ -755,9 +755,9 @@
     "unidad_empaque_gramos": 8,
     "peso_unidad_empaque": 7120,
     "empaque_canasta": 25,
-    "largo_cm": 0.675,
-    "alto_cm": 0.4,
-    "ancho_cm": 0.47
+    "largo_m": 0.675,
+    "alto_m": 0.4,
+    "ancho_m": 0.47
   },
   {
     "codigo": "PF552",
@@ -765,9 +765,9 @@
     "unidad_empaque_gramos": 9,
     "peso_unidad_empaque": null,
     "empaque_canasta": 11,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF215",
@@ -775,9 +775,9 @@
     "unidad_empaque_gramos": 28,
     "peso_unidad_empaque": 7260,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF221",
@@ -785,9 +785,9 @@
     "unidad_empaque_gramos": 150,
     "peso_unidad_empaque": 11680,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF300N",
@@ -795,9 +795,9 @@
     "unidad_empaque_gramos": 8,
     "peso_unidad_empaque": 5840,
     "empaque_canasta": 25,
-    "largo_cm": 0.645,
-    "alto_cm": 0.49,
-    "ancho_cm": 0.52
+    "largo_m": 0.645,
+    "alto_m": 0.49,
+    "ancho_m": 0.52
   },
   {
     "codigo": "PF300NB",
@@ -805,9 +805,9 @@
     "unidad_empaque_gramos": 8,
     "peso_unidad_empaque": 5600,
     "empaque_canasta": 25,
-    "largo_cm": 0.66,
-    "alto_cm": 0.445,
-    "ancho_cm": 0.4
+    "largo_m": 0.66,
+    "alto_m": 0.445,
+    "ancho_m": 0.4
   },
   {
     "codigo": "PF300NP",
@@ -815,9 +815,9 @@
     "unidad_empaque_gramos": 8,
     "peso_unidad_empaque": 6240,
     "empaque_canasta": 25,
-    "largo_cm": 0.7,
-    "alto_cm": 0.4,
-    "ancho_cm": 0.46
+    "largo_m": 0.7,
+    "alto_m": 0.4,
+    "ancho_m": 0.46
   },
   {
     "codigo": "PF400",
@@ -825,9 +825,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": 13300,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF450",
@@ -835,9 +835,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": null,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF460",
@@ -845,9 +845,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": null,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF500",
@@ -855,9 +855,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": 12940,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF500B",
@@ -865,9 +865,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 12060,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF550",
@@ -875,9 +875,9 @@
     "unidad_empaque_gramos": 4,
     "peso_unidad_empaque": 3700,
     "empaque_canasta": 50,
-    "largo_cm": 0.55,
-    "alto_cm": 0.21,
-    "ancho_cm": 0.46
+    "largo_m": 0.55,
+    "alto_m": 0.21,
+    "ancho_m": 0.46
   },
   {
     "codigo": "PF550B",
@@ -885,9 +885,9 @@
     "unidad_empaque_gramos": 4,
     "peso_unidad_empaque": 4280,
     "empaque_canasta": 50,
-    "largo_cm": 0.675,
-    "alto_cm": 0.19,
-    "ancho_cm": 0.47
+    "largo_m": 0.675,
+    "alto_m": 0.19,
+    "ancho_m": 0.47
   },
   {
     "codigo": "PF550PR",
@@ -895,9 +895,9 @@
     "unidad_empaque_gramos": 4,
     "peso_unidad_empaque": 4000,
     "empaque_canasta": 50,
-    "largo_cm": 0.735,
-    "alto_cm": 0.2,
-    "ancho_cm": 0.54
+    "largo_m": 0.735,
+    "alto_m": 0.2,
+    "ancho_m": 0.54
   },
   {
     "codigo": "PF551",
@@ -905,9 +905,9 @@
     "unidad_empaque_gramos": 8,
     "peso_unidad_empaque": 7120,
     "empaque_canasta": 25,
-    "largo_cm": 0.675,
-    "alto_cm": 0.4,
-    "ancho_cm": 0.47
+    "largo_m": 0.675,
+    "alto_m": 0.4,
+    "ancho_m": 0.47
   },
   {
     "codigo": "PF552",
@@ -915,9 +915,9 @@
     "unidad_empaque_gramos": 9,
     "peso_unidad_empaque": null,
     "empaque_canasta": 11,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF553",
@@ -925,9 +925,9 @@
     "unidad_empaque_gramos": 8,
     "peso_unidad_empaque": 7940,
     "empaque_canasta": 25,
-    "largo_cm": 0.71,
-    "alto_cm": 0.39,
-    "ancho_cm": 0.38
+    "largo_m": 0.71,
+    "alto_m": 0.39,
+    "ancho_m": 0.38
   },
   {
     "codigo": "PF554",
@@ -935,9 +935,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": null,
     "empaque_canasta": 5,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF560",
@@ -945,9 +945,9 @@
     "unidad_empaque_gramos": 10,
     "peso_unidad_empaque": 9640,
     "empaque_canasta": 10,
-    "largo_cm": 0.48,
-    "alto_cm": 0.77,
-    "ancho_cm": 0.7
+    "largo_m": 0.48,
+    "alto_m": 0.77,
+    "ancho_m": 0.7
   },
   {
     "codigo": "PF610",
@@ -955,9 +955,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": 5694,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF620",
@@ -965,9 +965,9 @@
     "unidad_empaque_gramos": 20,
     "peso_unidad_empaque": 8340,
     "empaque_canasta": 25,
-    "largo_cm": 0.67,
-    "alto_cm": 0.375,
-    "ancho_cm": 0.39
+    "largo_m": 0.67,
+    "alto_m": 0.375,
+    "ancho_m": 0.39
   },
   {
     "codigo": "PF640",
@@ -975,9 +975,9 @@
     "unidad_empaque_gramos": 24,
     "peso_unidad_empaque": 15140,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF715",
@@ -985,9 +985,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 12180,
     "empaque_canasta": 14,
-    "largo_cm": 0.42,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.41
+    "largo_m": 0.42,
+    "alto_m": 0.53,
+    "ancho_m": 0.41
   },
   {
     "codigo": "PF720",
@@ -995,9 +995,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 14700,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF723",
@@ -1005,9 +1005,9 @@
     "unidad_empaque_gramos": 8,
     "peso_unidad_empaque": null,
     "empaque_canasta": 6,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF725",
@@ -1015,9 +1015,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 12220,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF726",
@@ -1025,9 +1025,9 @@
     "unidad_empaque_gramos": 18,
     "peso_unidad_empaque": 751,
     "empaque_canasta": 12,
-    "largo_cm": 0.68,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.6
+    "largo_m": 0.68,
+    "alto_m": 0.53,
+    "ancho_m": 0.6
   },
   {
     "codigo": "PF730",
@@ -1035,9 +1035,9 @@
     "unidad_empaque_gramos": 15,
     "peso_unidad_empaque": 11460,
     "empaque_canasta": 12,
-    "largo_cm": 0.58,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.68
+    "largo_m": 0.58,
+    "alto_m": 0.53,
+    "ancho_m": 0.68
   },
   {
     "codigo": "PF825",
@@ -1045,9 +1045,9 @@
     "unidad_empaque_gramos": 48,
     "peso_unidad_empaque": 10380,
     "empaque_canasta": 24,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF830",
@@ -1055,9 +1055,9 @@
     "unidad_empaque_gramos": 10,
     "peso_unidad_empaque": 9280,
     "empaque_canasta": 12,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF831",
@@ -1065,9 +1065,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 960,
     "empaque_canasta": 52,
-    "largo_cm": 0.345,
-    "alto_cm": 0.47,
-    "ancho_cm": 0.26
+    "largo_m": 0.345,
+    "alto_m": 0.47,
+    "ancho_m": 0.26
   },
   {
     "codigo": "PF835",
@@ -1075,9 +1075,9 @@
     "unidad_empaque_gramos": 10,
     "peso_unidad_empaque": 6540,
     "empaque_canasta": 10,
-    "largo_cm": 0.33,
-    "alto_cm": 0.48,
-    "ancho_cm": 0.58
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58
   },
   {
     "codigo": "PF835C",
@@ -1085,9 +1085,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 571,
     "empaque_canasta": 117,
-    "largo_cm": 0.39,
-    "alto_cm": 0.6,
-    "ancho_cm": 0.27
+    "largo_m": 0.39,
+    "alto_m": 0.6,
+    "ancho_m": 0.27
   },
   {
     "codigo": "PF840",
@@ -1095,9 +1095,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": 11920,
     "empaque_canasta": 10,
-    "largo_cm": 0.68,
-    "alto_cm": 0.44,
-    "ancho_cm": 0.7
+    "largo_m": 0.68,
+    "alto_m": 0.44,
+    "ancho_m": 0.7
   },
   {
     "codigo": "PF850",
@@ -1105,9 +1105,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": null,
     "empaque_canasta": 12,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF850B",
@@ -1115,9 +1115,9 @@
     "unidad_empaque_gramos": 10,
     "peso_unidad_empaque": null,
     "empaque_canasta": 21,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF855",
@@ -1125,9 +1125,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 1983,
     "empaque_canasta": 60,
-    "largo_cm": 0.31,
-    "alto_cm": 0.56,
-    "ancho_cm": 0.35
+    "largo_m": 0.31,
+    "alto_m": 0.56,
+    "ancho_m": 0.35
   },
   {
     "codigo": "PF860",
@@ -1135,9 +1135,9 @@
     "unidad_empaque_gramos": 6,
     "peso_unidad_empaque": 12900,
     "empaque_canasta": 9,
-    "largo_cm": 0.515,
-    "alto_cm": 0.62,
-    "ancho_cm": 0.81
+    "largo_m": 0.515,
+    "alto_m": 0.62,
+    "ancho_m": 0.81
   },
   {
     "codigo": "PF861",
@@ -1145,9 +1145,9 @@
     "unidad_empaque_gramos": 6,
     "peso_unidad_empaque": 12900,
     "empaque_canasta": 9,
-    "largo_cm": 0.515,
-    "alto_cm": 0.62,
-    "ancho_cm": 0.81
+    "largo_m": 0.515,
+    "alto_m": 0.62,
+    "ancho_m": 0.81
   },
   {
     "codigo": "PF870",
@@ -1155,9 +1155,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": 15640,
     "empaque_canasta": 10,
-    "largo_cm": 0.48,
-    "alto_cm": 0.77,
-    "ancho_cm": 0.7
+    "largo_m": 0.48,
+    "alto_m": 0.77,
+    "ancho_m": 0.7
   },
   {
     "codigo": "PF890-1",
@@ -1165,9 +1165,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": 15340,
     "empaque_canasta": 10,
-    "largo_cm": 0.68,
-    "alto_cm": 0.43,
-    "ancho_cm": 0.7
+    "largo_m": 0.68,
+    "alto_m": 0.43,
+    "ancho_m": 0.7
   },
   {
     "codigo": "PF890-2",
@@ -1175,9 +1175,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": 15340,
     "empaque_canasta": 10,
-    "largo_cm": 0.68,
-    "alto_cm": 0.43,
-    "ancho_cm": 0.7
+    "largo_m": 0.68,
+    "alto_m": 0.43,
+    "ancho_m": 0.7
   },
   {
     "codigo": "PF891",
@@ -1185,9 +1185,9 @@
     "unidad_empaque_gramos": 12,
     "peso_unidad_empaque": null,
     "empaque_canasta": 10,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF893-1",
@@ -1195,9 +1195,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 2100,
     "empaque_canasta": 72,
-    "largo_cm": 0.3,
-    "alto_cm": 0.37,
-    "ancho_cm": 0.3
+    "largo_m": 0.3,
+    "alto_m": 0.37,
+    "ancho_m": 0.3
   },
   {
     "codigo": "PF893-2",
@@ -1205,9 +1205,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 2060,
     "empaque_canasta": 72,
-    "largo_cm": 0.3,
-    "alto_cm": 0.37,
-    "ancho_cm": 0.3
+    "largo_m": 0.3,
+    "alto_m": 0.37,
+    "ancho_m": 0.3
   },
   {
     "codigo": "PF894-1",
@@ -1215,9 +1215,9 @@
     "unidad_empaque_gramos": 27,
     "peso_unidad_empaque": null,
     "empaque_canasta": 24,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF894-2",
@@ -1225,9 +1225,9 @@
     "unidad_empaque_gramos": 27,
     "peso_unidad_empaque": null,
     "empaque_canasta": 24,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF900-1",
@@ -1235,9 +1235,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3660,
     "empaque_canasta": 30,
-    "largo_cm": 0.74,
-    "alto_cm": 0.4,
-    "ancho_cm": 0.41
+    "largo_m": 0.74,
+    "alto_m": 0.4,
+    "ancho_m": 0.41
   },
   {
     "codigo": "PF900R",
@@ -1245,9 +1245,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3660,
     "empaque_canasta": 30,
-    "largo_cm": 0.74,
-    "alto_cm": 0.4,
-    "ancho_cm": 0.41
+    "largo_m": 0.74,
+    "alto_m": 0.4,
+    "ancho_m": 0.41
   },
   {
     "codigo": "PF902",
@@ -1255,9 +1255,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 4220,
     "empaque_canasta": 30,
-    "largo_cm": 0.77,
-    "alto_cm": 0.43,
-    "ancho_cm": 0.41
+    "largo_m": 0.77,
+    "alto_m": 0.43,
+    "ancho_m": 0.41
   },
   {
     "codigo": "PF905-1",
@@ -1265,9 +1265,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3120,
     "empaque_canasta": 42,
-    "largo_cm": 0.65,
-    "alto_cm": 0.39,
-    "ancho_cm": 0.3
+    "largo_m": 0.65,
+    "alto_m": 0.39,
+    "ancho_m": 0.3
   },
   {
     "codigo": "PF905-2",
@@ -1275,9 +1275,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 2800,
     "empaque_canasta": 42,
-    "largo_cm": 0.65,
-    "alto_cm": 0.39,
-    "ancho_cm": 0.3
+    "largo_m": 0.65,
+    "alto_m": 0.39,
+    "ancho_m": 0.3
   },
   {
     "codigo": "PF906",
@@ -1285,9 +1285,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": null,
     "empaque_canasta": 42,
-    "largo_cm": 0.65,
-    "alto_cm": 0.39,
-    "ancho_cm": 0.3
+    "largo_m": 0.65,
+    "alto_m": 0.39,
+    "ancho_m": 0.3
   },
   {
     "codigo": "PF910-2",
@@ -1295,9 +1295,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 2220,
     "empaque_canasta": 72,
-    "largo_cm": 0.65,
-    "alto_cm": 0.44,
-    "ancho_cm": 0.33
+    "largo_m": 0.65,
+    "alto_m": 0.44,
+    "ancho_m": 0.33
   },
   {
     "codigo": "PF915",
@@ -1305,9 +1305,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3000,
     "empaque_canasta": 48,
-    "largo_cm": 0.5,
-    "alto_cm": 0.42,
-    "ancho_cm": 0.35
+    "largo_m": 0.5,
+    "alto_m": 0.42,
+    "ancho_m": 0.35
   },
   {
     "codigo": "PF920",
@@ -1315,9 +1315,9 @@
     "unidad_empaque_gramos": 2,
     "peso_unidad_empaque": 3300,
     "empaque_canasta": 96,
-    "largo_cm": 0.44,
-    "alto_cm": 0.31,
-    "ancho_cm": 0.49
+    "largo_m": 0.44,
+    "alto_m": 0.31,
+    "ancho_m": 0.49
   },
   {
     "codigo": "PF925-1",
@@ -1325,9 +1325,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": null,
     "empaque_canasta": 0,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF925-2",
@@ -1335,9 +1335,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": null,
     "empaque_canasta": 0,
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF930-1",
@@ -1345,9 +1345,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 2390,
     "empaque_canasta": 80,
-    "largo_cm": 0.5,
-    "alto_cm": 0.35,
-    "ancho_cm": 0.27
+    "largo_m": 0.5,
+    "alto_m": 0.35,
+    "ancho_m": 0.27
   },
   {
     "codigo": "PF930-2",
@@ -1355,9 +1355,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 2408,
     "empaque_canasta": 80,
-    "largo_cm": 0.5,
-    "alto_cm": 0.39,
-    "ancho_cm": 0.27
+    "largo_m": 0.5,
+    "alto_m": 0.39,
+    "ancho_m": 0.27
   },
   {
     "codigo": "PF930C-1",
@@ -1365,9 +1365,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3126,
     "empaque_canasta": 47,
-    "largo_cm": 0.63,
-    "alto_cm": 0.28,
-    "ancho_cm": 0.28
+    "largo_m": 0.63,
+    "alto_m": 0.28,
+    "ancho_m": 0.28
   },
   {
     "codigo": "PF930C-2",
@@ -1375,9 +1375,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3072,
     "empaque_canasta": 47,
-    "largo_cm": 0.63,
-    "alto_cm": 0.28,
-    "ancho_cm": 0.28
+    "largo_m": 0.63,
+    "alto_m": 0.28,
+    "ancho_m": 0.28
   },
   {
     "codigo": "PF932",
@@ -1385,9 +1385,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3217,
     "empaque_canasta": 47,
-    "largo_cm": 0.63,
-    "alto_cm": 0.28,
-    "ancho_cm": 0.28
+    "largo_m": 0.63,
+    "alto_m": 0.28,
+    "ancho_m": 0.28
   },
   {
     "codigo": "PF934",
@@ -1395,9 +1395,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3000,
     "empaque_canasta": 47,
-    "largo_cm": 0.63,
-    "alto_cm": 0.28,
-    "ancho_cm": 0.28
+    "largo_m": 0.63,
+    "alto_m": 0.28,
+    "ancho_m": 0.28
   },
   {
     "codigo": "PF936",
@@ -1405,9 +1405,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3240,
     "empaque_canasta": 47,
-    "largo_cm": 0.63,
-    "alto_cm": 0.28,
-    "ancho_cm": 0.28
+    "largo_m": 0.63,
+    "alto_m": 0.28,
+    "ancho_m": 0.28
   },
   {
     "codigo": "PF940-1",
@@ -1415,9 +1415,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3071,
     "empaque_canasta": 42,
-    "largo_cm": 0.685,
-    "alto_cm": 0.292,
-    "ancho_cm": 0.274
+    "largo_m": 0.685,
+    "alto_m": 0.292,
+    "ancho_m": 0.274
   },
   {
     "codigo": "PF940-2",
@@ -1425,9 +1425,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3170,
     "empaque_canasta": 42,
-    "largo_cm": 0.685,
-    "alto_cm": 0.292,
-    "ancho_cm": 0.274
+    "largo_m": 0.685,
+    "alto_m": 0.292,
+    "ancho_m": 0.274
   },
   {
     "codigo": "PF947-1",
@@ -1435,9 +1435,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3730,
     "empaque_canasta": 24,
-    "largo_cm": 0.56,
-    "alto_cm": 0.414,
-    "ancho_cm": 0.402
+    "largo_m": 0.56,
+    "alto_m": 0.414,
+    "ancho_m": 0.402
   },
   {
     "codigo": "PF947-2",
@@ -1445,9 +1445,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3520,
     "empaque_canasta": 24,
-    "largo_cm": 0.56,
-    "alto_cm": 0.414,
-    "ancho_cm": 0.402
+    "largo_m": 0.56,
+    "alto_m": 0.414,
+    "ancho_m": 0.402
   },
   {
     "codigo": "PF950-1",
@@ -1455,9 +1455,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 1605,
     "empaque_canasta": 96,
-    "largo_cm": 0.26,
-    "alto_cm": 0.432,
-    "ancho_cm": 0.23
+    "largo_m": 0.26,
+    "alto_m": 0.432,
+    "ancho_m": 0.23
   },
   {
     "codigo": "PF950-2",
@@ -1465,9 +1465,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 1602,
     "empaque_canasta": 96,
-    "largo_cm": 0.26,
-    "alto_cm": 0.432,
-    "ancho_cm": 0.23
+    "largo_m": 0.26,
+    "alto_m": 0.432,
+    "ancho_m": 0.23
   },
   {
     "codigo": "PF950B-1",
@@ -1475,9 +1475,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 1580,
     "empaque_canasta": 96,
-    "largo_cm": 0.26,
-    "alto_cm": 0.432,
-    "ancho_cm": 0.23
+    "largo_m": 0.26,
+    "alto_m": 0.432,
+    "ancho_m": 0.23
   },
   {
     "codigo": "PF955-1",
@@ -1485,9 +1485,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3420,
     "empaque_canasta": 36,
-    "largo_cm": 0.62,
-    "alto_cm": 0.42,
-    "ancho_cm": 0.4
+    "largo_m": 0.62,
+    "alto_m": 0.42,
+    "ancho_m": 0.4
   },
   {
     "codigo": "PF955-2",
@@ -1495,9 +1495,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3420,
     "empaque_canasta": 36,
-    "largo_cm": 0.336,
-    "alto_cm": 0.61,
-    "ancho_cm": 0.336
+    "largo_m": 0.336,
+    "alto_m": 0.61,
+    "ancho_m": 0.336
   },
   {
     "codigo": "PF960-1",
@@ -1505,9 +1505,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 2848,
     "empaque_canasta": 46,
-    "largo_cm": 0.683,
-    "alto_cm": 0.32,
-    "ancho_cm": 0.262
+    "largo_m": 0.683,
+    "alto_m": 0.32,
+    "ancho_m": 0.262
   },
   {
     "codigo": "PF960-2",
@@ -1515,9 +1515,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 2874,
     "empaque_canasta": 46,
-    "largo_cm": 0.683,
-    "alto_cm": 0.32,
-    "ancho_cm": 0.262
+    "largo_m": 0.683,
+    "alto_m": 0.32,
+    "ancho_m": 0.262
   },
   {
     "codigo": "PF965",
@@ -1525,9 +1525,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 2844,
     "empaque_canasta": 40,
-    "largo_cm": 0.666,
-    "alto_cm": 0.355,
-    "ancho_cm": 0.26
+    "largo_m": 0.666,
+    "alto_m": 0.355,
+    "ancho_m": 0.26
   },
   {
     "codigo": "PF966",
@@ -1535,9 +1535,9 @@
     "unidad_empaque_gramos": 6,
     "peso_unidad_empaque": 17180,
     "empaque_canasta": 6,
-    "largo_cm": 1.05,
-    "alto_cm": 0.535,
-    "ancho_cm": 0.66
+    "largo_m": 1.05,
+    "alto_m": 0.535,
+    "ancho_m": 0.66
   },
   {
     "codigo": "PF970-1",
@@ -1545,9 +1545,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3400,
     "empaque_canasta": 24,
-    "largo_cm": 0.61,
-    "alto_cm": 0.403,
-    "ancho_cm": 0.358
+    "largo_m": 0.61,
+    "alto_m": 0.403,
+    "ancho_m": 0.358
   },
   {
     "codigo": "PF970-2",
@@ -1555,9 +1555,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3380,
     "empaque_canasta": 24,
-    "largo_cm": 0.61,
-    "alto_cm": 0.403,
-    "ancho_cm": 0.358
+    "largo_m": 0.61,
+    "alto_m": 0.403,
+    "ancho_m": 0.358
   },
   {
     "codigo": "PF980-1",
@@ -1565,9 +1565,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": null,
     "empaque_canasta": "PENDIENTE",
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF980-2",
@@ -1575,9 +1575,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": null,
     "empaque_canasta": "PENDIENTE",
-    "largo_cm": null,
-    "alto_cm": null,
-    "ancho_cm": null
+    "largo_m": null,
+    "alto_m": null,
+    "ancho_m": null
   },
   {
     "codigo": "PF1500-1",
@@ -1585,9 +1585,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3222,
     "empaque_canasta": 42,
-    "largo_cm": 0.87,
-    "alto_cm": 0.49,
-    "ancho_cm": 0.49
+    "largo_m": 0.87,
+    "alto_m": 0.49,
+    "ancho_m": 0.49
   },
   {
     "codigo": "PF1500-2",
@@ -1595,9 +1595,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3294,
     "empaque_canasta": 42,
-    "largo_cm": 0.87,
-    "alto_cm": 0.49,
-    "ancho_cm": 0.49
+    "largo_m": 0.87,
+    "alto_m": 0.49,
+    "ancho_m": 0.49
   },
   {
     "codigo": "PF1505-1",
@@ -1605,9 +1605,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 4596,
     "empaque_canasta": 30,
-    "largo_cm": 0.88,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.5
+    "largo_m": 0.88,
+    "alto_m": 0.53,
+    "ancho_m": 0.5
   },
   {
     "codigo": "PF1505-2",
@@ -1615,9 +1615,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 4526,
     "empaque_canasta": 30,
-    "largo_cm": 0.88,
-    "alto_cm": 0.53,
-    "ancho_cm": 0.5
+    "largo_m": 0.88,
+    "alto_m": 0.53,
+    "ancho_m": 0.5
   },
   {
     "codigo": "PF1510-1",
@@ -1625,9 +1625,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 2517,
     "empaque_canasta": 72,
-    "largo_cm": 0.59,
-    "alto_cm": 0.45,
-    "ancho_cm": 0.22
+    "largo_m": 0.59,
+    "alto_m": 0.45,
+    "ancho_m": 0.22
   },
   {
     "codigo": "PF1510-2",
@@ -1635,9 +1635,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 2574,
     "empaque_canasta": 72,
-    "largo_cm": 0.59,
-    "alto_cm": 0.45,
-    "ancho_cm": 0.22
+    "largo_m": 0.59,
+    "alto_m": 0.45,
+    "ancho_m": 0.22
   },
   {
     "codigo": "PF1520-1",
@@ -1645,9 +1645,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 4000,
     "empaque_canasta": 30,
-    "largo_cm": 0.79,
-    "alto_cm": 0.49,
-    "ancho_cm": 0.5
+    "largo_m": 0.79,
+    "alto_m": 0.49,
+    "ancho_m": 0.5
   },
   {
     "codigo": "PF1520-1S",
@@ -1655,9 +1655,9 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 4000,
     "empaque_canasta": 30,
-    "largo_cm": 0.79,
-    "alto_cm": 0.49,
-    "ancho_cm": 0.5
+    "largo_m": 0.79,
+    "alto_m": 0.49,
+    "ancho_m": 0.5
   },
   {
     "codigo": "PF1520-2",
@@ -1665,8 +1665,8 @@
     "unidad_empaque_gramos": 1,
     "peso_unidad_empaque": 3740,
     "empaque_canasta": 30,
-    "largo_cm": 0.79,
-    "alto_cm": 0.49,
-    "ancho_cm": 0.5
+    "largo_m": 0.79,
+    "alto_m": 0.49,
+    "ancho_m": 0.5
   }
 ]
