@@ -6,8 +6,7 @@ fetch('productos.json')
     .then(data => productos = data)
     .catch(error => console.error('Error cargando productos:', error));
 
-// Función para procesar los datos ingresados
-// Función para procesar los datos ingresados
+
 // Función para procesar los datos ingresados
 function procesarDatos() {
     const pedidoTexto = document.getElementById('pedido').value;
@@ -37,13 +36,18 @@ function procesarDatos() {
         const producto = productos.find(p => p.codigo.trim() === codigo.trim());
 
         if (producto) {
-            // Convertir las dimensiones de centímetros a metros dividiendo por 100
-            const largo_m = (producto.largo_m || 0) / 100;
-            const alto_m = (producto.alto_m || 0) / 100;
-            const ancho_m = (producto.ancho_m || 0) / 100;
+            // no hay que converir no es necesario dividir por 100 porque las dimensiones ya están en metros.
+            const largo_m = (producto.largo_m || 0) ;
+            const alto_m = (producto.alto_m || 0) ;
+            const ancho_m = (producto.ancho_m || 0) ;
 
             // Calcular el volumen de la unidad en m³
             const volumenUnidad = largo_m * alto_m * ancho_m;
+            console.log("lrgo",largo_m);
+            console.log("alto",alto_m);
+            console.log("ancho",ancho_m);
+
+            console.log("volumenUnidad",volumenUnidad);
 
             // Validar y calcular el peso total de la unidad en gramos
             const pesoUnidadGramos = producto.peso_unidad_empaque || 0;
@@ -51,27 +55,33 @@ function procesarDatos() {
             // Calcular el volumen total para la cantidad solicitada
             const volumenTotalProducto = volumenUnidad * cantidad;
 
+            console.log("volumenTotalProducto",volumenTotalProducto);
+            console.log("cantidad",cantidad);
+
             // Calcular el peso total para la cantidad solicitada
             const pesoTotalProducto = pesoUnidadGramos * cantidad;
 
             // Acumular el volumen y el peso totales
             volumenTotal += volumenTotalProducto;
+            console.log("volumenTotal",volumenTotal);
             pesoTotal += pesoTotalProducto;
 
             // Añadir fila a la tabla de resultados individuales
             const fila = `<tr>
                 <td>${producto.codigo}</td>
-                <td>${producto.empaque || 'N/A'}</td>
-                
+                <td>${producto.empaque || 'N/A'}</td>                
                 <td>${producto.unidad_empaque_gramos || 'N/A'}</td>
                 <td>${(pesoUnidadGramos / 1000).toFixed(4)}</td>
                 <td>${producto.empaque_canasta || 'N/A'}</td>
-                <td>${volumenUnidad.toFixed(6)}</td>
+                <td>${volumenUnidad}</td>
                 <td>${cantidad}</td>
-                <td>${volumenTotalProducto.toFixed(6)}</td>
+                <td>${volumenTotalProducto}</td>
                 <td>${(pesoTotalProducto / 1000).toFixed(2)}</td>
             </tr>`;
             resultadosIndividuales.insertAdjacentHTML('beforeend', fila);
+
+       
+
         } else {
             // Si no se encuentra el producto, mostrar una fila indicando que no se encontró
             const fila = `<tr>
@@ -79,6 +89,7 @@ function procesarDatos() {
                 <td colspan="10">Producto no encontrado</td>
             </tr>`;
             resultadosIndividuales.insertAdjacentHTML('beforeend', fila);
+            
         }
     });
 
