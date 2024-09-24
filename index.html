@@ -7,10 +7,13 @@
     <title>Calcular Volumen y Peso</title>
 </head>
 <body>
-    <h1>Pedido de Productos</h1>
+    <div style="display: flex; justify-content: center; align-items: center; ">
+        <img src="PlasticosFenix.png" style="width: 180px;" alt="logo">
+    </div>
+    <h1> Productos FENIX</h1>
 
     <!-- Área de texto para pegar productos -->
-     <div class="input-group" style="margin-bottom: 20px; background-color: #f4f4f9" >
+     <div class="input-group" style="margin-bottom: 20px; background-color: #c9c8c8" >
         <textarea id="pedido" rows="15" placeholder="Pega productos aquí (ej: PF101,12)"></textarea>
      </div>
     
@@ -18,27 +21,35 @@
     <h2>Resultados Totales</h2>
 <div id="resultado-totales">
     <p>Volumen Total (m³): <span id="volumen-total"></span></p>
+    <p>Volumen Total Canastilla (m³): <span id="volumen-total-canastilla"></span></p>
+    <p>Diferencia de Volumen (m³): <span id="diferencia-volumen"></span></p>
     <p>Peso Total (kg): <span id="peso-total"></span></p>
 </div>
     <br>
     <!-- Botón para procesar datos -->
     <button onclick="procesarDatos()">Calcular</button>
+    <!-- Boton para reinicia-->
+    <button id="reiniciar" onclick="reiniciar()">Reiniciar</button>
+   
 
     <!-- Resultados Individuales -->
-    <div id="resultadosIndividuales">
+    <div id="resultados">
         <h2>Resultados Individuales</h2>
         <table>
             <thead>
                 <tr>
                     <th>Código</th>
-                    <th>Empaque</th>
+                    <th>Empaque</th>                  
                     <th>Unidad Empaque </th>
                     <th>Peso Unidad (Grs)</th>
                     <th>Empaque Canasta</th>
-                    <th>Volumen Unidad (m³) </th>
+                    <th>Volumen Unidad </th>
                     <th>Cantidad</th>
                     <th>Volumen Total (m³)</th>
                     <th>Peso Total (kg)</th>
+                     <!--  el volumen de la canastilla  sedeve de sacar de una coonstantes el cual ya esta defuinidad en 2.89metros cubicos
+                        y la formuula seria dividir 2.89 entre el valor dato unidadd empauqe -->
+                        <th>Volumen Canastilla(2.89m³)</th>
                 </tr>
             </thead>
             <tbody id="resultado-individuales">
@@ -70,30 +81,33 @@
         </div>
 
 
-        <!-- Análisis Canastillas -->
+      
 
-        <div  id="canastillas">
-
-        <h2>Análisis Canastillas</h2>
-        <table id="tabla-Canastillas">
-            <thead>
-                <tr>
-                    <th>Camión</th>
-                    <th>Capacidad Canastilla (m³)</th>
-                    <th>Peso Canastilla (kg)</th>
-                    <th>Volumen Canastilla (%)</th>
-                    
-                </tr>
-            </thead>
-            </table>
-
-
+                     
+                  
         </div>
+        
 
 
     </div>
 
     <!-- Enlace al archivo de JavaScript -->
     <script src="logica.js"></script>
+
+
+    <footer>
+        <img src="PlasticosFenix.png" style="width: 120px;" alt="logo">
+
+        <p>UBICACIÓN <br>
+            Kilómetro 10 vía Armenia - La Tebaida, Quindío <br>
+            TELÉFONO
+            (6) 731 3574 Ext 705 <br>
+            
+            EMAIL
+            plastifenix@gmail.com.</p>
+            <p>&copy; 2024 FENIX. Todos los derechos reservados.</p>
+
+    </footer>
+    
 </body>
 </html>
