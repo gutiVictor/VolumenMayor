@@ -38,7 +38,7 @@ function procesarDatos() {
     let totalCanastilla = 0;
 
     // Constante para volumen de la canastilla en m³
-    const VOLUMEN_CANASTA = 2.89;
+    const VOLUMEN_CANASTA = 2.80;
 
     // Procesar cada línea del pedido
     lineas.forEach(linea => {
@@ -74,7 +74,7 @@ function procesarDatos() {
                     <td>${producto.unidad_empaque_gramos || 'N/A'}</td>
                     <td>${(pesoUnidadGramos / 1000).toFixed(4)}</td>
                     <td>${producto.empaque_canasta || 'N/A'}</td>
-                    <td>${volumenUnidad}</td>
+                    <td>${volumenUnidad.toFixed(6)}</td>
                     <td>${cantidad}</td>
                     <td>${volumenTotalProducto.toFixed(6)}</td>
                     <td>${(pesoTotalProducto / 1000).toFixed(2)}</td>

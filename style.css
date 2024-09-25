@@ -9,16 +9,17 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #c9c8c8;
-    color: #333;
+   /*  background-color: #C1C1C1; */
+    color: #f1ebeb;
     padding: 20px;
     line-height: 1.6;
+    background-image: url("back.png");
 }
 
 
 
 h1, h2 {
-    color: #030304;
+    color: #f1f1f7;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -48,7 +49,7 @@ textarea {
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #344250;
     margin-bottom: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     resize: none;
@@ -87,7 +88,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #aca4a4;
 }
 
 th, td {
@@ -98,11 +99,11 @@ th, td {
 
 thead {
     background-color: #34495e;
-    color: white;
+    color: rgb(14, 221, 83);
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #574c5c;
 }
 
 tbody tr:hover {
