@@ -10,7 +10,7 @@
     <div style="display: flex; justify-content: center; align-items: center; ">
         <img src="PlasticosFenix.png" style="width: 180px;" alt="logo">
     </div>
-    <h1> Productos FENIX</h1>
+    <h1> Cubicaje Vehiculos FENIX</h1>
 
     <!-- Área de texto para pegar productos -->
      <div class="input-group" style="margin-bottom: 20px; background-image: url('back.png');" >
@@ -28,6 +28,11 @@
     <br>
     <!-- Botón para procesar datos -->
     <button onclick="procesarDatos()">Calcular</button>
+
+    <!--boton para exportar a excel-->
+
+    <button id="exportar-excel" onclick="exportarExcel()">Exportar a Excel</button>
+
     <!-- Boton para reinicia-->
     <button id="reiniciar" onclick="reiniciar()">Reiniciar</button>
    
@@ -43,13 +48,15 @@
                     <th>Unidad Empaque </th>
                     <th>Peso Unidad (Grs)</th>
                     <th>Empaque Canasta</th>
-                    <th>Volumen Unidad </th>
-                    <th>Cantidad</th>
-                    <th>Volumen Total (m³)</th>
-                    <th>Peso Total (kg)</th>
+                    <th>F. Vol. Unidad </th>
                      <!--  el volumen de la canastilla  sedeve de sacar de una coonstantes el cual ya esta defuinidad en 2.89metros cubicos
                         y la formuula seria dividir 2.89 entre el valor dato unidadd empauqe -->
-                        <th>Volumen Canastilla(2.89m³)</th>
+                        <th>F. Vol. Canastilla(2.89m³)</th>
+                    <th>Cantidad USD</th>
+                    <th>F.Vol. Total (m³)</th>
+                    <th>F. Arrume</th>                   
+                    <th>Peso Total (kg)</th>
+                    
                 </tr>
             </thead>
             <tbody id="resultado-individuales">
@@ -63,10 +70,11 @@
             <thead>
                 <tr>
                     <th>Camión</th>
-                    <th>Capacidad Volumen (m³)</th>
-                    <th>Capacidad Peso (kg)</th>
-                    <th>Volumen Utilizado (%)</th>
-                    <th>Peso Utilizado (%)</th>
+                    <th>Capacidad Volumen (m³) Camiones</th>
+                    <th>Capacidad Peso (kg) Camiones</th>
+                    <th>Volumen Utilizado (%) Mercancia</th>
+                    <th>Peso Utilizado (%) Mercancia</th>
+                    <th>Volumen Faltante (m³) Camiones (Canastillas)</th>                
                     <th>¿Cabe?</th>
                 </tr>
             </thead>
@@ -93,6 +101,11 @@
 
     <!-- Enlace al archivo de JavaScript -->
     <script src="logica.js"></script>
+
+    <!-- Cargar archivo de hoja de cálculo -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+
 
 
     <footer>

@@ -1,6 +1,46 @@
 // Cargar productos del archivo JSON
 let productos = [];
 
+
+/* funcion para exportar a excel */
+function exportarExcel() {
+    /* Obtener la tabla de resultados individuales */
+    var tablaResultados = document.getElementById('resultados');
+    
+    // Crear un nuevo libro de Excel
+    var wb = XLSX.utils.book_new();
+    
+    // Agregar la tabla de resultados individuales como una hoja de Excel
+    var ws = XLSX.utils.table_to_sheet(tablaResultados);
+    
+    // Añadir la hoja al libro
+    XLSX.utils.book_append_sheet(wb, ws, 'Resultados');
+    
+    // Obtener los valores de los resultados totales
+    var volumenTotal = document.getElementById("volumen-total").innerText;
+    var volumenTotalCanastilla = document.getElementById("volumen-total-canastilla").innerText;
+    var diferenciaVolumen = document.getElementById("diferencia-volumen").innerText;
+    var pesoTotal = document.getElementById("peso-total").innerText;
+
+    // Agregar los resultados totales a la hoja de Excel, justo después de los datos de la tabla
+    var range = XLSX.utils.decode_range(ws['!ref']);
+    var rowStart = range.e.r + 2; // Una fila vacía entre la tabla y los resultados totales
+    
+    // Añadir las filas de los resultados totales
+    XLSX.utils.sheet_add_aoa(ws, [
+        ["Resultados Totales:"],
+        ["Volumen Total (m³):", volumenTotal],
+        ["Volumen Total Canastilla (m³):", volumenTotalCanastilla],
+        ["Diferencia de Volumen (m³):", diferenciaVolumen],
+        ["Peso Total (kg):", pesoTotal]
+    ], { origin: "A" + rowStart });
+    
+    // Exportar el archivo como Excel
+    XLSX.writeFile(wb, 'resultados_fenix.xlsx');
+}
+
+
+
  // Función para recargar la página
  function reiniciar() {
     location.reload(); // Recarga la página actual
@@ -25,6 +65,9 @@ function procesarDatos() {
     const volumenCanastillaElem = document.getElementById('volumen-total-canastilla');
     const diferenciaVolumenElem = document.getElementById('diferencia-volumen');
 
+    /* creamos la constante paar <th>F. Arrume</th> */
+    const arrume = document.getElementById('arrume');
+
     // Limpiar tablas previas
     resultadosIndividuales.innerHTML = '';
     resultadoCamiones.innerHTML = '';
@@ -32,13 +75,18 @@ function procesarDatos() {
     pesoTotalElem.textContent = '';
     volumenCanastillaElem.textContent = '';
     diferenciaVolumenElem.textContent = '';
+    /* creamos campo para limpiar <th>F. Arrume</th> */
+  
 
     let volumenTotal = 0;
     let pesoTotal = 0;
     let totalCanastilla = 0;
+   
+
+
 
     // Constante para volumen de la canastilla en m³
-    const VOLUMEN_CANASTA = 2.80;
+    const VOLUMEN_CANASTA = 2.89;
 
     // Procesar cada línea del pedido
     lineas.forEach(linea => {
@@ -75,10 +123,12 @@ function procesarDatos() {
                     <td>${(pesoUnidadGramos / 1000).toFixed(4)}</td>
                     <td>${producto.empaque_canasta || 'N/A'}</td>
                     <td>${volumenUnidad.toFixed(6)}</td>
-                    <td>${cantidad}</td>
-                    <td>${volumenTotalProducto.toFixed(6)}</td>
-                    <td>${(pesoTotalProducto / 1000).toFixed(2)}</td>
                     <td>${volumenCanastillaUnidad.toFixed(6)}</td>
+                    <td>${cantidad}</td>
+                    <td>${volumenTotalProducto.toFixed(6)}</td> 
+                     <td>${volumenTotalCanastilla.toFixed(6)}</td>                 
+                    <td>${(pesoTotalProducto / 1000).toFixed(2)}</td>
+                   
                 </tr>`;
                 resultadosIndividuales.insertAdjacentHTML('beforeend', fila);
             } else {
@@ -111,20 +161,63 @@ function procesarDatos() {
         { nombre: 'Camión Placa SZR-652', capacidadVolumen: 75.25, capacidadPeso: 24000 }
     ];
 
+ 
+   
+
     camiones.forEach(camion => {
         const volumenUtilizado = (volumenTotal / camion.capacidadVolumen) * 100;
         const pesoUtilizado = ((pesoTotal / 1000) / camion.capacidadPeso) * 100;
+        const volumenMetros = (camion.capacidadVolumen - totalCanastilla); // Volumen en metros cúbicos
+    
         const cabe = (volumenUtilizado <= 100 && pesoUtilizado <= 100) ? 'Sí' : 'No';
-
-        const filaCamion = `<tr>
-            <td>${camion.nombre}</td>
-            <td>${camion.capacidadVolumen}</td>
-            <td>${camion.capacidadPeso}</td>
-            <td>${volumenUtilizado.toFixed(2)}%</td>
-            <td>${pesoUtilizado.toFixed(2)}%</td>
-            <td>${cabe}</td>
-        </tr>`;
-        resultadoCamiones.insertAdjacentHTML('beforeend', filaCamion);
+    
+        // Crear la fila sin el contenido de las celdas de volumen y peso
+        const filaCamion = document.createElement('tr');
+        
+        // Crear las celdas para el nombre, capacidadVolumen y capacidadPeso
+        const nombreTd = document.createElement('td');
+        nombreTd.textContent = camion.nombre;
+    
+        const capacidadVolumenTd = document.createElement('td');
+        capacidadVolumenTd.textContent = camion.capacidadVolumen;
+    
+        const capacidadPesoTd = document.createElement('td');
+        capacidadPesoTd.textContent = camion.capacidadPeso;
+    
+        // Crear la celda de volumen y agregar clase si se excede el 100%
+        const volumenTd = document.createElement('td');
+        volumenTd.textContent = `${volumenUtilizado.toFixed(2)}%`;
+        if (volumenUtilizado > 100) {
+            volumenTd.classList.add('rojo'); // Agregar clase 'rojo' si volumen excede 100%
+        }
+    
+        // Crear la celda de peso y agregar clase si se excede el 100%
+        const pesoTd = document.createElement('td');
+        pesoTd.textContent = `${pesoUtilizado.toFixed(2)}%`;
+        if (pesoUtilizado >= 100) {
+            pesoTd.classList.add('rojo'); // Agregar clase 'rojo' si peso excede 100%
+        }
+    
+        // Crear la celda de volumen en metros
+        const volumenMetrosTd = document.createElement('td');
+        volumenMetrosTd.textContent = `${volumenMetros.toFixed(2)}m³`;
+    
+        // Crear la celda para si cabe o no
+        const cabeTd = document.createElement('td');
+        cabeTd.textContent = cabe;
+    
+        // Añadir las celdas a la fila
+        filaCamion.appendChild(nombreTd);
+        filaCamion.appendChild(capacidadVolumenTd);
+        filaCamion.appendChild(capacidadPesoTd);
+        filaCamion.appendChild(volumenTd);
+        filaCamion.appendChild(pesoTd);
+        filaCamion.appendChild(volumenMetrosTd);
+        filaCamion.appendChild(cabeTd);
+    
+        // Añadir la fila al resultado
+        resultadoCamiones.appendChild(filaCamion);
     });
-}
 
+   
+}

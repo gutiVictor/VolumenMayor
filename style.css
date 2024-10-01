@@ -75,6 +75,9 @@ button {
 #reiniciar:hover {
     background-color: #e4132f;
 }
+#exportar-excel:hover {
+    background-color: #99ce3c;
+}
 
 button:hover {
     background-color: #2980b9;
@@ -148,4 +151,10 @@ footer {
     text-align: center;
     margin-top: 40px;
     color: #536679;
+}
+
+
+.rojo {
+    color: red;
+    font-weight: bold;
 }
