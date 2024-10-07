@@ -20,10 +20,17 @@
 
     <h2>Resultados Totales</h2>
 <div id="resultado-totales">
-    <p>Volumen Total (m³): <span id="volumen-total"></span></p>
-    <p>Volumen Total Canastilla (m³): <span id="volumen-total-canastilla"></span></p>
-    <p>Diferencia de Volumen (m³): <span id="diferencia-volumen"></span></p>
+    <!-- <p>Volumen Total (m³): <span id="volumen-total"></span></p> -->
+     <p style="display: none;">Volumen Total (m³): <span id="volumen-total"></span></p>
+    <!-- <p>Volumen Total Canastilla (m³): <span id="volumen-total-canastilla"></span></p> -->
+    <p style="display: none;">Volumen Total Canastilla (m³): <span id="volumen-total-canastilla"></span></p>
+
+    <p style="display: none;">Diferencia de Volumen (m³): <span id="diferencia-volumen"></span></p> 
+
     <p>Peso Total (kg): <span id="peso-total"></span></p>
+    <p>Volumen Total Bolsa: <span id="volumen-total-bolsa"></span></p>
+    <p>Volumen Total Cajas: <span id="volumen-total-cajas"></span></p>
+    <p>Consolidado de Volumen  cajas + bolsas: <span id="volumen-consolidado-cajas-bolsas"></span></p>
 </div>
     <br>
     <!-- Botón para procesar datos -->
@@ -56,6 +63,10 @@
                     <th>F.Vol. Total (m³)</th>
                     <th>F. Arrume</th>                   
                     <th>Peso Total (kg)</th>
+                    <th>Cubicaje (Bolsa)</th>
+                    <th>Cubicaje (Caja)</th>
+          
+
                     
                 </tr>
             </thead>
@@ -76,6 +87,7 @@
                     <th>Peso Utilizado (%) Mercancia</th>
                     <th>Volumen Faltante (m³) Camiones (Canastillas)</th>                
                     <th>¿Cabe?</th>
+                    <th>Cubicaje total(c+b)</th>
                 </tr>
             </thead>
             <tbody id="resultado-camiones">
