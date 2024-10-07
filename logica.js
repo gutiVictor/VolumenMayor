@@ -250,12 +250,15 @@ const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
       capacidadVolumen: 75.25,
       capacidadPeso: 24000,
     },
-    { nombre: "Contenedor 40",
-       capacidadVolumen: 67.7,
-        capacidadPeso: 30480, },
-    { nombre: "Contenedor 20", 
-      capacidadVolumen: 33.2,
-       capacidadPeso:  24000, },
+    { nombre: "Contenedor 20 ST",
+       capacidadVolumen: 28,
+        capacidadPeso: 22180, },
+    { nombre: "Contenedor 40 ST", 
+      capacidadVolumen: 57,
+       capacidadPeso:  27750, },
+       { nombre: "Contenedor 40 HC", 
+        capacidadVolumen: 68,
+         capacidadPeso:  29600, },
   ];
 
   camiones.forEach((camion) => {
