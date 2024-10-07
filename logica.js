@@ -95,6 +95,7 @@ function procesarDatos() {
   let totalCanastilla = 0;
   let volumenTotalBolsa = 0;
   let volumenTotalCajas = 0;
+  let cubicajeTotalCB = 0;
 
   // Constante para volumen de la canastilla en m³
   const VOLUMEN_CANASTA = 2.89;
@@ -258,7 +259,10 @@ const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
   ];
 
   camiones.forEach((camion) => {
-    const volumenUtilizado = (volumenTotal / camion.capacidadVolumen) * 100;
+    const volumenUtilizado = (volumenConsolidadoCajasBolsas / camion.capacidadVolumen) * 100;
+
+
+   
     const pesoUtilizado = (pesoTotal / 1000 / camion.capacidadPeso) * 100;
     const volumenMetros = camion.capacidadVolumen - totalCanastilla; // Volumen en metros cúbicos
 
@@ -279,7 +283,7 @@ const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
 
     // Crear la celda de volumen y agregar clase si se excede el 100%
     const volumenTd = document.createElement("td");
-    volumenTd.textContent = `${volumenUtilizado.toFixed(2)}%`;
+    volumenTd.textContent = `${volumenUtilizado.toFixed(4)}%`;
     if (volumenUtilizado > 100) {
       volumenTd.classList.add("rojo"); // Agregar clase 'rojo' si volumen excede 100%
     }
@@ -293,7 +297,7 @@ const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
 
     // Crear la celda de volumen en metros
     const volumenMetrosTd = document.createElement("td");
-    volumenMetrosTd.textContent = `${volumenMetros.toFixed(2)}m³`;
+    volumenMetrosTd.textContent = `${volumenConsolidadoCajasBolsas.toFixed(2)}m³`;
 
 
     // Crear la celda de volumen consolidado
@@ -319,8 +323,9 @@ const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
     filaCamion.appendChild(volumenTd);
     filaCamion.appendChild(pesoTd);
     filaCamion.appendChild(volumenMetrosTd);
-    filaCamion.appendChild(cabeTd);
     filaCamion.appendChild(cubicajeTotalCBTd);
+    filaCamion.appendChild(cabeTd);
+   
 
   
 
