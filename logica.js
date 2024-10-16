@@ -16,18 +16,29 @@ function exportarExcel() {
   XLSX.utils.book_append_sheet(wb, ws, "Resultados");
 
   // Obtener los valores de los resultados totales
-  var volumenTotal = document.getElementById("volumen-total").parentElement.style.display = "none";
-  var volumenTotalCanastilla = document.getElementById("volumen-total-canastilla").parentElement.style.display = "none";
+  var volumenTotal = (document.getElementById(
+    "volumen-total"
+  ).parentElement.style.display = "none");
+  var volumenTotalCanastilla = (document.getElementById(
+    "volumen-total-canastilla"
+  ).parentElement.style.display = "none");
 
-  var diferenciaVolumen =
-  document.getElementById("diferencia-volumen").parentElement.style.display = "none"; // Ocultar la celda
+  var diferenciaVolumen = (document.getElementById(
+    "diferencia-volumen"
+  ).parentElement.style.display = "none"); // Ocultar la celda
 
   var pesoTotal = document.getElementById("peso-total").innerText;
 
   //
-  var volumenTotalBolsa = document.getElementById("volumen-total-bolsa").innerText;
-  var volumenTotalCajas = document.getElementById("volumen-total-cajas").innerText;
-  var volumenConsolidadoCajasBolsas = document.getElementById("volumen-consolidado-cajas-bolsas").innerText;
+  var volumenTotalBolsa = document.getElementById(
+    "volumen-total-bolsa"
+  ).innerText;
+  var volumenTotalCajas = document.getElementById(
+    "volumen-total-cajas"
+  ).innerText;
+  var volumenConsolidadoCajasBolsas = document.getElementById(
+    "volumen-consolidado-cajas-bolsas"
+  ).innerText;
 
   // Agregar los resultados totales a la hoja de Excel, justo después de los datos de la tabla
   var range = XLSX.utils.decode_range(ws["!ref"]);
@@ -38,13 +49,16 @@ function exportarExcel() {
     ws,
     [
       ["Resultados Totales:"],
-     /*  ["Volumen Total (m³):", volumenTotal],
+      /*  ["Volumen Total (m³):", volumenTotal],
       ["Volumen Total Canastilla (m³):", volumenTotalCanastilla],
       ["Diferencia de Volumen (m³):", diferenciaVolumen], */
       ["Peso Total (kg):", pesoTotal],
-      ["Volumen Total Bolsa (m³):",volumenTotalBolsa],
+      ["Volumen Total Bolsa (m³):", volumenTotalBolsa],
       ["Volumen Total Cajas (m³):", volumenTotalCajas],
-      ["Consolidado de Volumen  cajas + bolsas (m³):",volumenConsolidadoCajasBolsas ],
+      [
+        "Consolidado de Volumen  cajas + bolsas (m³):",
+        volumenConsolidadoCajasBolsas,
+      ],
     ],
     { origin: "A" + rowStart }
   );
@@ -122,7 +136,8 @@ function procesarDatos() {
         const pesoTotalProducto = pesoUnidadGramos * cantidad;
 
         // Calcular el consolidado de volumen de cajas + bolsas
-const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
+        const volumenConsolidadoCajasBolsas =
+          volumenTotalBolsa + volumenTotalCajas;
 
         volumenTotal += volumenTotalProducto;
         pesoTotal += pesoTotalProducto;
@@ -194,8 +209,16 @@ const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
     }
   });
 
+ 
+
+
+
+
   // Calcular la diferencia de volumen
   const diferenciaVolumen = totalCanastilla - volumenTotal;
+
+
+   
 
   // Mostrar los totales en el HTML
   volumenTotalElem.textContent = volumenTotal.toFixed(6);
@@ -209,10 +232,10 @@ const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
   document.getElementById("volumen-total-cajas").textContent =
     volumenTotalCajas.toFixed(6);
 
-
-    const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
-    document.getElementById("volumen-consolidado-cajas-bolsas").textContent = volumenConsolidadoCajasBolsas.toFixed(6);
-    console.log("volumenConsolidadoCajasBolsas", volumenConsolidadoCajasBolsas);
+  const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
+  document.getElementById("volumen-consolidado-cajas-bolsas").textContent =
+    volumenConsolidadoCajasBolsas.toFixed(6);
+  console.log("volumenConsolidadoCajasBolsas", volumenConsolidadoCajasBolsas);
   // Datos de camiones
   const camiones = [
     {
@@ -250,22 +273,15 @@ const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
       capacidadVolumen: 75.25,
       capacidadPeso: 24000,
     },
-    { nombre: "Contenedor 20 ST",
-       capacidadVolumen: 28,
-        capacidadPeso: 22180, },
-    { nombre: "Contenedor 40 ST", 
-      capacidadVolumen: 57,
-       capacidadPeso:  27750, },
-       { nombre: "Contenedor 40 HC", 
-        capacidadVolumen: 68,
-         capacidadPeso:  29600, },
+    { nombre: "Contenedor 20 ST", capacidadVolumen: 33.2, capacidadPeso: 22180 },
+    { nombre: "Contenedor 40 ST", capacidadVolumen: 77, capacidadPeso: 27750 },
+    { nombre: "Contenedor 40 HC", capacidadVolumen: 75.25, capacidadPeso: 29600 },
   ];
 
   camiones.forEach((camion) => {
-    const volumenUtilizado = (volumenConsolidadoCajasBolsas / camion.capacidadVolumen) * 100;
+    const volumenUtilizado =
+      (volumenConsolidadoCajasBolsas / camion.capacidadVolumen) * 100;
 
-
-   
     const pesoUtilizado = (pesoTotal / 1000 / camion.capacidadPeso) * 100;
     const volumenMetros = camion.capacidadVolumen - totalCanastilla; // Volumen en metros cúbicos
 
@@ -300,25 +316,28 @@ const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
 
     // Crear la celda de volumen en metros
     const volumenMetrosTd = document.createElement("td");
-    volumenMetrosTd.textContent = `${volumenConsolidadoCajasBolsas.toFixed(2)}m³`;
-
+    volumenMetrosTd.textContent = `${volumenConsolidadoCajasBolsas.toFixed(
+      2
+    )}m³`;
 
     // Crear la celda de volumen consolidado
     const volumenConsolidadoCajasBolsasTd = document.createElement("td");
-    volumenConsolidadoCajasBolsasTd.textContent = `${(volumenConsolidadoCajasBolsas).toFixed(2)}m³`;
+    volumenConsolidadoCajasBolsasTd.textContent = `${volumenConsolidadoCajasBolsas.toFixed(
+      2
+    )}m³`;
 
     // Crear la celda para si cabe o no
     const cabeTd = document.createElement("td");
     cabeTd.textContent = cabe;
 
+    /* cambaiar por el nombre que se necesita real  comparacion camion.capacidadVolumen - volumenConsolidadoCajasBolsas */
+    const cubicajeTotalCB =
+      camion.capacidadVolumen - volumenConsolidadoCajasBolsas;
 
-     /* cambaiar por el nombre que se necesita real  comparacion camion.capacidadVolumen - volumenConsolidadoCajasBolsas */
-  const cubicajeTotalCB = camion.capacidadVolumen - volumenConsolidadoCajasBolsas;
-  
     // Crear la celda para el cubicaje total
     const cubicajeTotalCBTd = document.createElement("td");
     cubicajeTotalCBTd.textContent = `${cubicajeTotalCB.toFixed(2)}m³`;
-   
+
     // Añadir las celdas a la fila
     filaCamion.appendChild(nombreTd);
     filaCamion.appendChild(capacidadVolumenTd);
@@ -328,14 +347,8 @@ const volumenConsolidadoCajasBolsas = volumenTotalBolsa + volumenTotalCajas;
     filaCamion.appendChild(volumenMetrosTd);
     filaCamion.appendChild(cubicajeTotalCBTd);
     filaCamion.appendChild(cabeTd);
-   
 
-  
-
-    console.log("este es el que se necesita: ",cubicajeTotalCB);
-
-   
-
+    console.log("este es el que se necesita: ", cubicajeTotalCB);
 
     // Añadir la fila al resultado
     resultadoCamiones.appendChild(filaCamion);
