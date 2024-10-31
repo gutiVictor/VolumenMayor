@@ -1697,12 +1697,12 @@
 {
     "codigo": "PF3040",
     "empaque": "MASTER MIS PEQUE\u00d1OS GIGANTES",
-    "unidad_empaque_gramos": 60,
+    "unidad_empaque_gramos":60,
     "peso_unidad_empaque": 9.12,
     "empaque_canasta": 24,
-    "largo_m": 58.0,
-    "alto_m": 48.0,
-    "ancho_m": 33.9,
+    "largo_m": 0.33,
+    "alto_m": 0.48,
+    "ancho_m": 0.58,
     "tipo": "Caja"
 },
 {
@@ -2705,5 +2705,36 @@
     "alto_m": 1.0,
     "ancho_m": 1.0,
     "tipo": "Bolsa"
+},
+{
+
+    "codigo": "PF958",
+    "empaque": "CAJA CAMPER CBT PALA Y PALIN",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 1.0,
+    "empaque_canasta": 39,
+    "largo_m": 0.3,
+    "alto_m": 0.63,
+    "ancho_m": 0.29,
+    "tipo": "Caja"
+
+},
+
+{
+
+    "codigo": "PF959",
+    "empaque": "CAMPER BOMBERO",
+    "unidad_empaque_gramos": 1,
+    "peso_unidad_empaque": 1.0,
+    "empaque_canasta": 39,
+    "largo_m": 0.3,
+    "alto_m": 0.63,
+    "ancho_m": 0.29,
+    "tipo": "Caja"
+
 }
+
+
+
+
 ]
